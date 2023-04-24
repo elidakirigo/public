@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Banner.css'
+import axios from './axios'
+import requests from './request'
 
-export function Banner() {
+ function Banner() {
+
+	const [movie, setMovie] = useState([])
+
+	useEffect(() => {
+		async function fetchData() {
+			const request = await axios.get(requests.fetchNetflixOriginals)
+			setMovie(request.data.results[Math.floor(Math.random() * request.data.results.length - 1)])
+
+			return request
+		}
+		fetchData()
+	}, [])
 
 	function trancate(string, n) {
 		return string?.length > n ? string.substr(0, n - 1) + '...' : string
@@ -9,20 +23,20 @@ export function Banner() {
 	return (
 		<header className="Banner" style={{
 			backgroundSize: 'cover',
-			backgroundImage: `url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3321103.jpg&f=1&nofb=1&ipt=dd0c1b963fc934dff4a0bfda5c7a7ab7dfa4380ca443695b50558e4f5fc34ddf&ipo=images")`,
+			backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
 			backgroundPosition: 'center center'
 		}}>
 			<div className="banner__contents">
-				<h1 className='banner__title'>movie name</h1>
+				<h1 className='banner__title'>{movie?.title || movie?.name || movie?.original_name}</h1>
 				<div className='banner__buttons'>
 					<button className='banner__button'>play</button>
 					<button className='banner__button'>My List</button>
 				</div>
-				<h1 className='banner__description'>{trancate(' this is a test description.this is a test description.this is a test description.this is a test description.this is a test description.this is a test description.this is a test description.this is a test description.this is a test description.this is a test description.', 150)}</h1>
+				<h1 className='banner__description'>{trancate(movie?.overview, 150)}</h1>
 			</div>
 			<div className='banner--fadebutton' />
-		</header>  
+		</header>
 	)
 }
 
-// export default Banner;
+export default Banner;
