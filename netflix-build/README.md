@@ -1,3 +1,9 @@
+# tutorial link
+[build a netflix project](https://www.youtube.com/watch?v=HW5roUF2RLg&t=1926s)
+
+# API link
+[TMDB](https://www.themoviedb.org/)
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
