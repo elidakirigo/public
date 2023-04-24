@@ -1,0 +1,77 @@
+#abtus{
+	
+	background-image: url(../images/5.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color:#FFF;
+	height: 300px;
+
+	
+
+}
+
+#aboutusoverlay{
+	height:300px;
+	background-color:rgba(0,0,0,0.7);
+	margin-top: 0px;
+	width: 100%;
+}
+
+#aboutuscontent{
+
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+}
+
+#services{
+	
+	padding-top: 3%;
+}
+
+h2{
+
+
+
+font-family: 'Pacifico', cursive;
+color:#2CACE2;
+
+
+}
+
+#consult{
+	text-align:left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#consult h3{
+	color:#2D368F
+}
+
+#corevalues{
+	background-image: url(../images/phone.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color:#FFF;
+	height:300px;
+	
+}
+
+.coreoverlay{
+	background-color:rgba(0,0,0,0.5);
+	height:300px;
+}
+
+#value{
+	height:150px;
+	border-radius: 40%;
+}
+
+#valuecontent{
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}

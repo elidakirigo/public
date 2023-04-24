@@ -1,0 +1,16 @@
+body{
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+#line{
+	width:40%;
+}
+
+#longerline{
+	width:80%;
+}
+
+#content{
+	margin-top: 100px;
+}

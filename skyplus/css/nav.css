@@ -1,0 +1,17 @@
+.navbar-default{
+	background-color:rgba(255,255,255,0.7);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	border-style: none;
+	box-shadow: 0px 0px 3px #7f8c8d;
+	
+}
+.navbar-default .navbar-nav >li>a{
+	color:#FFF;
+}
+
+
+.navbar-brand{
+	padding-top:0px;
+}
