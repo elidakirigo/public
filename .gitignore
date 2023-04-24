@@ -1,2 +1,5 @@
-*/.vscode
-/netflix-build/vscode
+*.vscode
+*node_modules
+
+# unneccessary css files
+/CSS
