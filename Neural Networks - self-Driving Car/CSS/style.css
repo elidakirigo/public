@@ -1,0 +1,9 @@
+body {
+  background: darkgray;
+  overflow: hidden;
+  text-align: center;
+}
+
+#myCanvas {
+  background: lightgray;
+}/*# sourceMappingURL=style.css.map */
