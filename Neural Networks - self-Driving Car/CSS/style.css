@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
-#myCanvas {
+#carCanvas {
+  background: black;
+}
+
+#networkCanvas {
   background: lightgray;
 }/*# sourceMappingURL=style.css.map */
