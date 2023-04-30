@@ -320,7 +320,6 @@ body.dark-theme {
 	position: relative;
 	border-radius: 1rem;
 	overflow: hidden;
-
 }
 
 .projects__cards img {
@@ -541,16 +540,19 @@ body.dark-theme {
 		column-gap: 2rem;
 	}
 
-	.projects__content{
-		gap:2rem 3rem;
+	.projects__content {
+		gap: 2rem 3rem;
 	}
+
 	.projects__modal {
 		padding: 1.5rem;
 	}
+
 	.skills__title {
-		font-size:var(--normal-font-size);
+		font-size: var(--normal-font-size);
 		margin-bottom: 2.5rem;
 	}
+
 	.footer__copy {
 		margin: 4.5rem 0 2.5rem;
 	}
