@@ -1,7 +1,0 @@
-{
-  "name": "skyplus",
-  "dependencies": {
-    "bootstrap": "~3.3.2",
-    "animate.css": "3.2.1"
-  }
-}
