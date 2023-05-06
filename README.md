@@ -1,3 +1,12 @@
 # public pages guide
 
-## [responsive-mini-portfolio](https://elidakirigo.github.io/public/responsive-mini-portfolio/) 
+## [GITHUB PAGES ](https://elidakirigo.github.io/public/)
+
+> RESPONSIVE MINI PORTFOLIO - https://elidakirigo.github.io/public/responsive-mini-portfolio/ 
+
+
+## [CLOUDFLARE PAGES]()
+
+## [VERCEL PAGES]()
+
+## [NETLIFY PAGES]()
