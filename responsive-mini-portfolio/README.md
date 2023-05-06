@@ -8,4 +8,10 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-## [use of remix icon](https://remixicon.com/)
+
+
+## TECHNOLOGIES
+>  HTML CSS & JavaScript
+
+## LINKS
+### [use of remix icon](https://remixicon.com/)
