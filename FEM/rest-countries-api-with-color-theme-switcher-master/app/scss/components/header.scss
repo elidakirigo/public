@@ -1,0 +1,43 @@
+@use '../util/'as *;
+@use '../global/custom.scss'as *;
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: rem(20) rem(10);
+ box-shadow: 2px 2px 2px var(--box-shadow);
+ @extend .common-background;
+
+ @include breakpoint(medium) {
+  padding: rem(20);
+ }
+
+ &__title {
+  color: var(--text-color);
+  font-weight: 800;
+  font-size: rem(15);
+
+  @include breakpoint(medium) {
+   font-size: rem(20);
+  }
+ }
+
+ &__toggle {
+  color: var(--text-color);
+  display: block;
+  font-weight: 400;
+  font-size: rem(15);
+
+  @include breakpoint(medium) {
+   font-size: rem(20);
+  }
+
+  &.fa-moon {
+   margin-right: rem(2);
+  }
+ }
+
+ @include breakpoint(medium) {}
+
+}

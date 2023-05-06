@@ -1,0 +1,38 @@
+:root {
+ --box-shadow: rgba(0, 0, 0, 0.393);
+ /* ------------------------------------------------------------------------- */
+ /*                                Light Mode;                                */
+ /* ------------------------------------------------------------------------- */
+ --light-theme-background: hsl(0, 0%, 98%);
+ --light-theme-element-background: hsl(0, 0%, 100%);
+ --light-theme-input: hsl(0, 0%, 52%);
+ --light-theme-dark-blue-text: hsl(200, 15%, 8%);
+ /* -------------------------------------------------------------------------- */
+ /*                                  Dark Mode                                 */
+ /* -------------------------------------------------------------------------- */
+ --dark-theme-text-color: hsl(0, 0%, 100%);
+ --dark-theme-dark-blue-background: hsl(207, 26%, 17%);
+ --dark-theme-dark-blue-elements: hsl(208, 23%, 22%);
+
+ /* -------------------------------------------------------------------------- */
+ /*                        System Color Scheme Detector                        */
+ /* -------------------------------------------------------------------------- */
+ @media(prefers-color-scheme : light) {
+  --background: var(--light-theme-background);
+ }
+
+ @media(prefers-color-scheme : dark) {
+  --background: var(--dark-theme-dark-blue-background);
+  --text-color: var(--dark-theme-text-color);
+  --background-elements: var(--dark-theme-dark-blue-elements);
+ }
+}
+
+body.dark {
+ --background: var(--dark-theme-dark-blue-background);
+}
+
+body.light {
+ --background: var(--light-theme-background);
+
+}

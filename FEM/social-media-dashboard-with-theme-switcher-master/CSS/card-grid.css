@@ -1,0 +1,23 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-content: start;
+  gap: 1.4375rem;
+}
+.card-grid .card__subtitle,
+.card-grid .card__count {
+  justify-self: start;
+}
+.card-grid .card__count,
+.card-grid .card__change,
+.card-grid .card__change--down,
+.card-grid .card__change--up {
+  align-self: end;
+}
+.card-grid img,
+.card-grid .card__change,
+.card-grid .card__change--down,
+.card-grid .card__change--up {
+  justify-self: end;
+}/*# sourceMappingURL=card-grid.css.map */

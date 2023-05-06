@@ -1,0 +1,7 @@
+@use '../util/'as *;
+
+.common-background {
+    background-color: var(--background-elements);
+    border-radius: rem(5);
+    padding: rem(20) rem(25);
+   }
