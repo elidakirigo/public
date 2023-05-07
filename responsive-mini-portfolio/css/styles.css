@@ -374,7 +374,7 @@ body.dark-theme {
 	row-gap: 3.5rem;
 }
 
-.skills__tittle {
+.skills__title {
 	font-size: var(--h3-font-size);
 	text-align: center;
 	margin-bottom: 1.5rem;
@@ -413,11 +413,11 @@ body.dark-theme {
 }
 
 /* Hide and show projects & skills */
-.filters[data-content] {
+.filters [data-content] {
 	display: none;
 }
 
-.filters[data-content] {
+.filters__active[data-content] {
 	display: grid;
 }
 
