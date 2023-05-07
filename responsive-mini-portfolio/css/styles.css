@@ -215,6 +215,12 @@ body.dark-theme {
 	color: var(--first-color);
 }
 
+.profile__social-link img {
+	width: 50px;
+	border-radius: 5px;
+	border: 1px dashed #000000;
+}
+
 .profile__info {
 	grid-template-columns: repeat(3, max-content);
 	justify-content: center;
@@ -316,13 +322,13 @@ body.dark-theme {
 }
 
 /*=============== PROJECTS ===============*/
-.projects__cards {
+.projects__card {
 	position: relative;
 	border-radius: 1rem;
 	overflow: hidden;
 }
 
-.projects__cards img {
+.projects__card img {
 	width: 100%;
 	height: 100%;
 }
@@ -356,10 +362,10 @@ body.dark-theme {
 }
 
 .projects__button {
-	padding: 5rem;
+	/* padding: 5rem; */
 }
 
-.projects__cards:hover .projects__modal {
+.projects__card:hover .projects__modal {
 	bottom: 0
 }
 
