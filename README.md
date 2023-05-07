@@ -7,6 +7,8 @@
 
 ## [CLOUDFLARE PAGES](https://elidakirigo.pages.dev/)
 
+> RESPONSIVE MINI PORTFOLIO - https://elidakirigo.pages.dev/responsive-mini-portfolio/
+
 ## [VERCEL PAGES]()
 
 ## [NETLIFY PAGES]()
