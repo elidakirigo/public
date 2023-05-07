@@ -5,7 +5,7 @@
 > RESPONSIVE MINI PORTFOLIO - https://elidakirigo.github.io/public/responsive-mini-portfolio/ 
 
 
-## [CLOUDFLARE PAGES]()
+## [CLOUDFLARE PAGES](https://elidakirigo.pages.dev/)
 
 ## [VERCEL PAGES]()
 
