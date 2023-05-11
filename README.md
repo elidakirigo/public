@@ -13,6 +13,6 @@
 
 > RESPONSIVE MINI PORTFOLIO - https://public-acwmlmnbd-elidakirigo.vercel.app/responsive-mini-portfolio(html-css-js)/
 
-## [NETLIFY PAGES](elidakirigo.netlify.app)
+## [NETLIFY PAGES](elidakirigo.netlify.app/)
 
 > RESPONSIVE MINI PORTFOLIO - https://elidakirigo.netlify.app/responsive-mini-portfolio(html-css-js)/
