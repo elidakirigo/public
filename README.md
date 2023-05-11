@@ -11,4 +11,6 @@
 
 ## [VERCEL PAGES]()
 
-## [NETLIFY PAGES]()
+## [NETLIFY PAGES](elidakirigo.netlify.app)
+
+> RESPONSIVE MINI PORTFOLIO - https://elidakirigo.netlify.app/responsive-mini-portfolio/
