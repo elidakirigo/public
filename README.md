@@ -9,7 +9,9 @@
 
 > RESPONSIVE MINI PORTFOLIO - https://elidakirigo.pages.dev/responsive-mini-portfolio(html-css-js)/
 
-## [VERCEL PAGES]()
+## [VERCEL PAGES](https://public-acwmlmnbd-elidakirigo.vercel.app/)
+
+> RESPONSIVE MINI PORTFOLIO - https://public-acwmlmnbd-elidakirigo.vercel.app/responsive-mini-portfolio(html-css-js)/
 
 ## [NETLIFY PAGES](elidakirigo.netlify.app)
 
