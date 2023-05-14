@@ -358,7 +358,7 @@ body.dark-theme {
 
 .projects__title {
 	font-size: var(--h3-font-size);
-	margin-bottom: .75rem;
+	margin-bottom: .75rem; 
 }
 
 .projects__button {
@@ -379,7 +379,9 @@ body.dark-theme {
 	text-align: center;
 	margin-bottom: 1.5rem;
 }
-
+.skills__title.extra {
+	margin-top: 1.5rem;
+}
 .skills__box {
 	display: flex;
 	justify-content: center;
