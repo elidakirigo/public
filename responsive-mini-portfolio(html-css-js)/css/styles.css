@@ -215,12 +215,22 @@ body.dark-theme {
 	color: var(--first-color);
 }
 
-.profile__social-link img {
-	width: 50px;
+.profile__social-link-leetcode img {
+	height: 25px;
+	border-radius: 5px;
+	background-color: var(--first-color);
+	padding: 5px;
+	
+}
+.profile__social-link-codewars img {
+	height: 25px;
+	border-radius: 5px;
+}
+.profile__social-link-upwork img {
+	height: 25px;
 	border-radius: 5px;
 	border: 1px dashed #000000;
 }
-
 .profile__info {
 	grid-template-columns: repeat(3, max-content);
 	justify-content: center;
