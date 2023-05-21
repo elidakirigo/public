@@ -214,7 +214,13 @@ body.dark-theme {
 .profile__social-link:hover {
 	color: var(--first-color);
 }
-
+.profile__social-link-bio img {
+	height: 25px;
+	border-radius: 5px;
+	/* background-color: var(--first-color); */
+	/* padding: 5px; */
+	
+}
 .profile__social-link-leetcode img {
 	height: 25px;
 	border-radius: 5px;
