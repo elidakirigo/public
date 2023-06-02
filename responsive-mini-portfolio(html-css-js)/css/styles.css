@@ -371,7 +371,13 @@ body.dark-theme {
 .projects__subtitle {
 	font-size: var(--smaller-font-size)
 }
-
+.projects__languages {
+	color: white;
+	list-style-type: inherit;
+	padding-left: 1.5rem;
+	position: absolute;
+	top: 20px;
+}
 .projects__title {
 	font-size: var(--h3-font-size);
 	margin-bottom: .75rem; 
