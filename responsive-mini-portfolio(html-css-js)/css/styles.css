@@ -243,7 +243,7 @@ body.dark-theme {
 	border: 1px dashed #000000;
 }
 .profile__info {
-	grid-template-columns: repeat(3, max-content);
+	grid-template-columns: repeat(4, max-content);
 	justify-content: center;
 	column-gap: 2.5rem;
 }
