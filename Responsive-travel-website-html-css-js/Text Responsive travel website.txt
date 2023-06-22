@@ -87,8 +87,7 @@ Subscribe Our Newsletter
 Travel
 
 .footer__description
-Travel with us and explore <br> 
-the world without limits.
+
 
 footer__title .footer__link
 About
@@ -118,4 +117,4 @@ https://twitter.com/
 https://www.youtube.com/
 
 .footer__copy
-&#169; Copyright Bedimcode. All rights reserved
+
