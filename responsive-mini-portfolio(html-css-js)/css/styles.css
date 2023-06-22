@@ -12,10 +12,11 @@
 			Teal: hsl(174, 63%, 62%)
 	*/
 
-	--hue: 174;
-	--sat: 63%;
-	--lig: 62%;
+	--hue: 250;
+	--sat: 66%;
+	--lig: 75%;
 	--first-color: hsl(var(--hue), var(--sat), var(--lig));
+	--second-color: hsl(var(--hue), 80%, 50%);
 	--first-color-alt: hsl(var(--hue), var(--sat), 58%);
 	/* -4% */
 	--title-color: hsl(var(--hue), 12%, 15%);
@@ -95,7 +96,11 @@ img {
 .change-theme:hover {
 	color: var(--first-color);
 }
-
+/* qr settings */
+.qr-code{
+	margin-left: 2px;
+	background-color: var(--second-color);
+}
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
 	--title-color: hsl(var(--hue), 12%, 95%);
@@ -238,7 +243,7 @@ body.dark-theme {
 	border: 1px dashed #000000;
 }
 .profile__info {
-	grid-template-columns: repeat(3, max-content);
+	grid-template-columns: repeat(4, max-content);
 	justify-content: center;
 	column-gap: 2.5rem;
 }
