@@ -745,4 +745,151 @@ button:hover {
   .popular__container {
     grid-template-columns: repeat(3, 240px);
   }
+
+  .footer__data {
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 4.5rem;
+  }
+}
+
+@media screen and (min-width:1152px) {
+  .container {
+    /* NEW */
+    margin-inline: auto;
+  }
+
+  .section {
+    padding-block: 7rem 2rem;
+  }
+
+  .nav {
+    /* NEW */
+    height: calc(var(--header-height) + 1.5rem);
+  }
+
+  .blur-header::after {
+    backdrop-filter: blur(25px);
+    /* For Safari */
+    --webkit-backdrop-filter: blur(25px);
+  }
+
+  .home__container {
+    /* NEW */
+    grid-template-columns: initial;
+    justify-content: initial;
+    row-gap: 4rem;
+    padding-top: 6.5rem;
+  }
+
+  .home__shadow {
+    height: 980px;
+  }
+
+  .home__data {
+    text-align: initial;
+    width: 480px;
+  }
+
+  .home__subtitle {
+    font-size: var(--h2-font-size);
+  }
+
+  .home__description {
+    margin-bottom: 2.5rem;
+  }
+
+  .home__cards {
+    grid-template-columns: repeat(4, 260px);
+  }
+
+  .home__card-title {
+    left: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .button {
+    column-gap: 1.5rem;
+  }
+
+  .about__container {
+    grid-template-columns: 400px 460px;
+    column-gap: 8.5rem;
+    padding-block: 1rem;
+  }
+
+  .about__description {
+    margin-bottom: 3rem;
+  }
+
+  .about__img {
+    width: 460px;
+  }
+
+  .popular__container {
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 3rem;
+    padding-top: 4rem;
+  }
+
+  .popular__title {
+    font-size: var(--h2-font-size);
+  }
+
+  .popular__location {
+    font-size: var(--normal-font-size);
+  }
+
+  .explore__img {
+    height: 600px;
+  }
+
+  .explore__content {
+    padding-top: 28rem;
+    grid-template-columns: 670px 1fr;
+  }
+
+  .explore__data,
+  .explore__data .section__title {
+    text-align: initial;
+  }
+
+  .explore__user {
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-bottom: 1.25rem;
+  }
+
+  .join__container {
+    grid-template-columns: 460px 340px;
+    column-gap: 8.5rem;
+    padding-block: 1rem 5rem;
+  }
+
+  .join__img {
+    width: 460px;
+  }
+
+  .join__description {
+    margin-bottom: 3rem;
+  }
+
+  .footer {
+    padding-block: 5rem 3rem;
+  }
+
+  .footer__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer__group {
+    margin-top: 7rem;
+  }
+
+  .footer__social {
+    column-gap: 2rem;
+  }
+
+  .footer__social-link {
+    font-size: 1.5rem;
+  }
 }

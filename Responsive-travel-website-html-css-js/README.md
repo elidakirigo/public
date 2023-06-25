@@ -13,3 +13,6 @@
 ![preview img](/preview.png)
 
 [Remix icon](https://remixicon.com/)
+
+[scroll reveal - github](https://github.com/jlmakes/scrollreveal)
+[scroll reveal - site](https://scrollreveal.org)
