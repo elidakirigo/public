@@ -10,12 +10,12 @@ High level experience in web design and development knowledge, producing quality
 
 * ABOUT
 about__description
-Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+
 
 about__info-name
 Years <br> experience
-Completed <br> project
-Companies <br> worked
+
+
 
 
 * SERVICES
