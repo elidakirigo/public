@@ -20,15 +20,15 @@ Years <br> experience
 
 * SERVICES
 services__modal-service
-I develop the user interface.
-Web page development.
-I create ux element interactions.
-I position your company brand.
+
+
+
+
 
 
 * PORTFOLIO
 portfolio__description
-Website adaptable to all devices, with ui components and animated interactions.
+
 
 
 * PROJECT
