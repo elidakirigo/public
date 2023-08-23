@@ -1,0 +1,21 @@
+@use'../util/' as *;
+
+body {
+   background-color: var(--background);
+   font-family: var(--font-Nunito-Sans);
+   display: flex;
+   justify-content: center;
+   //  align-items: stretch;
+   flex-direction: column;
+}
+
+.c-wrapper {
+   align-self: center;
+   margin-top: rem(30);
+   width: min(rem(1200), 100%);
+   margin: rem(40) rem(10);
+
+   @include breakpoint(medium) {
+      // margin: 0;
+   }
+}

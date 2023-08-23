@@ -1,0 +1,81 @@
+:root {
+ /* ---------------------------------------------------------------------- */
+ /*                             Primary Colors                             */
+ /* ---------------------------------------------------------------------- */
+ --Bright_Red: rgb(220, 65, 76);
+
+ --dark-theme_Desaturated_Blue_Card_BG: #252a41;
+ --dark-theme_Desaturated_Blue_Text: hsl(228, 34%, 66%);
+ --dark-theme_Very_Dark_Blue_BG: hsl(230, 17%, 14%);
+ --dark-theme_Very_Dark_Blue_Top_BG_Pattern: #1f212e;
+ --dark-theme_WhiteText: hsl(0, 0%, 100%);
+ --dark-theme-card-hover: hsla(231, 27%, 33%, 0.68);
+ --dark-theme-toggle-background: linear-gradient(225deg, var(--Toggle-end), var(--Toggle-start));
+ --dark-theme-toggle-button: rgb(30, 32, 42);
+
+ --Facebook: rgb(25, 143, 245);
+ --instagram-end: hsl(329, 70%, 58%);
+ --Instagram-start: hsl(37, 97%, 70%);
+
+ --light-theme_BG: rgb(255, 255, 255);
+ --light-theme_Dark_Grayish_Blue_Text: rgb(99, 104, 126);
+ --light-theme_Grayish_Blue_Card_BG: rgb(240, 242, 250);
+ --light-theme_Very_Dark_Blue_Text: rgb(30, 32, 42);
+ --light-theme_Very_Pale_Blue_Top_BG_Pattern: rgb(245, 247, 255);
+ --light-theme-card-hover: rgba(196, 198, 212, 0.68);
+ --light-theme-toggle-background: rgb(174, 179, 203);
+ --light-theme-toggle-button: hsl(228, 46%, 96%);
+
+ --Lime_Green: rgb(29, 180, 137);
+ --Toggle-end: hsl(146, 68%, 55%);
+ --Toggle-start: hsl(210, 78%, 56%);
+ --Twitter: rgb(28, 160, 242);
+ --YouTube: rgb(196, 3, 42);
+
+ /* -------------------------------------------------------------------------- */
+ /*                        System Color Scheme Detector                        */
+ /* -------------------------------------------------------------------------- */
+ @media(prefers-color-scheme : light){
+  --background: var(--light-theme_BG);
+  --card-bg: var(--light-theme_Grayish_Blue_Card_BG);
+  --card-hover: var(--light-theme-card-hover);
+  --text-color-2: var(--light-theme_Dark_Grayish_Blue_Text);
+  --text-color: var(--light-theme_Very_Dark_Blue_Text);
+  --toggle-background: var(--light-theme-toggle-background);
+  --toggle-button:var(--light-theme-toggle-button);
+  --toggle-text: var(--light-theme-toggle-background);
+ }
+
+ @media(prefers-color-scheme : dark) {
+  --background: var(--dark-theme_Very_Dark_Blue_BG);
+  --card-bg: var(--dark-theme_Desaturated_Blue_Card_BG);
+  --card-hover: var(--dark-theme-card-hover);
+  --text-color-2: var(--dark-theme_Desaturated_Blue_Text);
+  --text-color: var(--dark-theme_WhiteText);
+  --toggle-background: var(--dark-theme-toggle-background);
+  --toggle-button: var(--dark-theme-toggle-button);
+  --toggle-text: var(--dark-theme_Desaturated_Blue_Text);
+ }
+}
+
+body.dark {
+  --background: var(--dark-theme_Very_Dark_Blue_BG);
+  --card-bg: var(--dark-theme_Desaturated_Blue_Card_BG);
+  --card-hover: var(--dark-theme-card-hover);
+  --text-color-2: var(--dark-theme_Desaturated_Blue_Text);
+  --text-color: var(--dark-theme_WhiteText);
+  --toggle-background: var(--dark-theme-toggle-background);
+  --toggle-button: var(--dark-theme-toggle-button);
+  --toggle-text: var(--dark-theme_Desaturated_Blue_Text);
+}
+
+body.light {
+  --background: var(--light-theme_BG);
+  --card-bg: var(--light-theme_Grayish_Blue_Card_BG);
+  --card-hover: var(--light-theme-card-hover);
+  --text-color-2: var(--light-theme_Dark_Grayish_Blue_Text);
+  --text-color: var(--light-theme_Very_Dark_Blue_Text);
+  --toggle-background: var(--light-theme-toggle-background);
+  --toggle-button:var(--light-theme-toggle-button);
+  --toggle-text: var(--light-theme-toggle-background);
+}

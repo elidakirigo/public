@@ -1,0 +1,12 @@
+@use '../util/'as *;
+
+.container {
+ max-width: rem(1300);
+ padding: 0 rem(25);
+ margin: 0 auto;
+
+ @include breakpoint(xlarge) {
+  padding: 0;
+ }
+
+ }

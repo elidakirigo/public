@@ -1,0 +1,74 @@
+@use '../util/' as *;
+@use '../global/custom.scss' as *;
+
+
+.search {
+   //  margin: 0 rem(10);
+   color: var (--text-color);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+
+   @include breakpoint(medium) {
+      flex-direction: row;
+      margin: 0;
+   }
+
+   &__bar {
+      @extend .common-background;
+      width: min(rem(500), 100%);
+   }
+
+   &__input {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      color: var(--text-color);
+
+      &placeholder {
+         color: var(--text-color);
+      }
+   }
+
+   &__filter {
+      @extend .common-background;
+      color: var(--text-color);
+
+      position: relative;
+      // justify-self: flex-start;
+      width: min(rem(200), rem(200));
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-top: rem(30);
+
+      @include breakpoint(medium) {
+         margin-top: rem(0);
+
+      }
+
+      &-dropdown {
+         right: rem(25);
+         transform: translateY(50%);
+         text-align: center;
+         font-size: rem(13);
+         position: absolute;
+      }
+   }
+
+   &__results {
+      @extend .common-background;
+      position: absolute;
+      top: rem(70);
+      width: 100%;
+      left: 0;
+      display: none;
+
+      &-country {
+         display: block;
+         padding: rem(5) 0;
+         //    font-weight: 500;
+         letter-spacing: 1.5;
+      }
+   }
+}

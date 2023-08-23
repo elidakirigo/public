@@ -1,0 +1,31 @@
+@use '../util/'as *;
+
+.header {
+ margin-top: rem(36);
+ margin-bottom: rem(30);
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+
+ @include breakpoint(medium) {
+  justify-content: space-between;
+ }
+
+ &__title {
+  width: 100%;
+
+  @include breakpoint(medium) {
+   width: auto;
+  }
+ }
+
+ &__subtitle {
+  font-size: rem(14);
+  font-weight: 700;
+  color: var(--text-color-2);
+ }
+
+ &__toggle {
+  margin-left: auto;
+ }
+}
