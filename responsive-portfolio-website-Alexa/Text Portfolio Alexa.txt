@@ -1,0 +1,50 @@
+* HOME
+home__social
+https://www.linkedin.com/
+https://dribbble.com/
+https://github.com/
+
+home__description
+High level experience in web design and development knowledge, producing quality work.
+
+
+* ABOUT
+about__description
+
+
+about__info-name
+Years <br> experience
+
+
+
+
+* SERVICES
+services__modal-service
+
+
+
+
+
+
+* PORTFOLIO
+portfolio__description
+
+
+
+* PROJECT
+project__description
+Contact me now and get a 30% discount on your new project.
+
+
+* TESTIMONIAL
+testimonial__description
+I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+
+
+* FOOTER
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+

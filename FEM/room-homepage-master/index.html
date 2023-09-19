@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Room homepage</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <nav>
+    <img class="x" onclick="toggleclose()" src='./images/icon-hamburger.svg' alt="" id="close">
+    <a href="#">
+      <h1 id="title">room</h1>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <h2>home</h2>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <h2>shop</h2>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <h2>about</h2>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <h2>contact</h2>
+    </a>
+    
+  </nav>
+  <main>
+
+    <div class="top-content">
+      <img class="big_image" src="./images/desktop-image-hero-1.jpg" alt="">
+
+      <div class="second-display">
+        <div class="column-1 show">
+          <h1 >Discover innovative ways to decorate</h1>
+          <p >We provide unmatched quality, comfort, and style for property owners across the country.
+            Our experts combine form and function in bringing your vision to life. Create a room in your
+            own style with our collection and make your property a reflection of you and what you love.</p>
+        </div>
+        <div class="column-2">
+          <h1>We are available all across the globe</h1>
+          <p > With stores all over the world, it's easy for you to find furniture for your home or place of
+            business.
+            Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+            store locator. Any questions? Don't hesitate to contact us today.</p>
+        </div>
+        <div class="column-3">
+          <h1 >Manufactured with the best materials</h1>
+          <p>
+            Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
+            to ensure that every product is made as perfect and as consistent as possible. With three decades of
+            experience in this industry, we understand what customers want for their home and office.</p>
+        </div>
+        <button id="shop_now">Shop now <img src="./images/icon-arrow.svg" alt=""></button>
+        <div class="container-button">
+          <img id="left" onclick="prev()" src="./images/icon-angle-left.svg" alt="">
+          <img id="right" onclick="next()" src="./images/icon-angle-right.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="bottom-content">
+      <!-- <div class="display-one"> -->
+      <img src="./images/image-about-dark.jpg" alt="">
+      <!-- </div> -->
+      <div class="display-two">
+        <h1>about our furniture</h1>
+        <p> Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <!-- <div class="display-three"> -->
+      <img src="./images/image-about-light.jpg" alt="">
+      <!-- </div> -->
+    </div>
+  </main>
+  <script src="./JS/jquery.js"></script>
+  <script src="./JS/script.js"></script>
+</body>
+
+</html>

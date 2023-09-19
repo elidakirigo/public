@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very_Dark_Blue: hsl(234, 12%, 34%);
+    --Grayish_Blue: hsl(229, 6%, 66%);
+    --Very_Light_Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins ', sans-serif;
+    background-color: var(--Very_Light_Gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px 6% 0;
+
+    // border: 1px solid;
+    
+    .c-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            text-align: center;
+            // width: 70%;
+            color: var(--Very_Dark_Blue);
+            padding-bottom: 20px;
+            font-weight: 100;
+
+            strong {}
+
+        }
+
+        p {
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            font-size: 14px;
+            color: var(--Grayish_Blue);
+        }
+    }
+
+    .c-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .c-card-feature {
+            // border: 1px solid;
+            padding: 40px 40px 20px;
+            margin: 8% 0;
+            // border-top: 5px solid;
+            border-radius: 4%;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 10px 12px 0px rgba(198, 198, 255, 0.492);
+
+            h1 {
+                color: var(--Very_Dark_Blue);
+                font-size: 18px;
+                padding-bottom: 20px;
+            }
+
+            p {
+                color: var(--Grayish_Blue);
+                font-size: 14px;
+                padding-bottom: 20px;
+            }
+
+            img {
+                // border: 1px solid;
+                // float: right;
+                align-self: flex-end;
+            }
+        }
+
+        .c-card-feature-list {
+            margin: 0 3%;
+        }
+
+        .supervisor {
+            border-top: 5px solid var(--Cyan);
+        }
+
+        .Team_Builder {
+            border-top: 5px solid var(--Red);
+        }
+
+        .Karma {
+            border-top: 5px solid var(--Orange);
+        }
+
+        .Calculator {
+            border-top: 5px solid var(--Blue);
+        }
+    }
+}
+@media (max-width:600px) {
+    main{
+        .c-card{
+            flex-direction: column;
+
+            .Karma{
+                margin-top:16%;
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+@use '../util/'as *;
+
+.cards {
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: rem(30);
+ //   flex-wrap: wrap;
+ //   flex-direction: column;
+
+ @include breakpoint(medium) {
+  grid-template-columns: repeat(2, 1fr);
+  //    flex-direction: row;
+  // justify-content: space-around;
+ }
+
+ @include breakpoint(large) {
+  grid-template-columns: repeat(4, 1fr);
+ }
+}
+
+.card {
+ background: var(--card-bg);
+ color: var( --text-color-2);
+ //   flex: 1;
+ text-align: center;
+ padding: rem(25);
+ border-radius: rem(5);
+ cursor: pointer;
+
+ &:hover {
+  background: var(--card-hover);
+ }
+
+ &--facebook {
+  border-top: rem(4) solid var(--Facebook);
+ }
+
+ &--twitter {
+  border-top: rem(4) solid var(--Twitter);
+ }
+
+ &--instagram {
+  padding-top: rem(29);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+   content: '  ';
+   background: linear-gradient(225deg, var(--instagram-end), var(--Instagram-start));
+   height: rem(4);
+   left: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%;
+  }
+ }
+
+ &--youtube {
+  border-top: rem(4) solid var(--YouTube);
+ }
+
+ &__platform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: rem(28);
+  height: rem(20);
+ }
+
+ &__icon {
+  margin-right: rem(8);
+ }
+
+ &__username {
+  font-size: rem(12);
+  font-weight: 700;
+ }
+
+ &__followers {
+  margin-bottom: rem(25);
+ }
+
+ &__count {
+  color: var( --text-color);
+  font-weight: 700;
+  letter-spacing: rem(2);
+  line-height: 1;
+  margin-bottom: rem(4);
+
+  &--big {
+   font-size: rem(56);
+  }
+
+  &--small {
+   font-size: rem(32);
+  }
+ }
+
+ &__label {
+  font-size: rem(12);
+  font-weight: 400;
+  color: var(--dark-theme_Desaturated_Blue_Text);
+  text-transform: uppercase;
+  letter-spacing: rem(5);
+ }
+
+ &__change {
+  font-size: rem(12);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--up {
+   @extend .card__change;
+   color: var(--Lime_Green);
+  }
+
+  &--down {
+   @extend .card__change;
+   color: var(--Bright_Red);
+  }
+ }
+
+ &__number {
+  margin-left: rem(4)
+ }
+
+ &__subtitle {
+  font-size: rem(14);
+  font-weight: 700;
+ }
+}

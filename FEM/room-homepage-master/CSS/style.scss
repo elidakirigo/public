@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+:root {
+    --Dark_Gray: rgb(161, 161, 161);
+    --Black: rgb(0, 0, 0);
+    --White: rgb(255, 255, 255);
+    --Very_Dark_Gray: rgb(69, 69, 69);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.display {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    font-family: 'League Spartan', sans-serif;
+    // border: 1px solid;
+
+}
+
+.show {
+    display: block !important;
+}
+
+nav {
+    @extend .display;
+    // align-self: center;
+    padding: 40px;
+    left: 0;
+    position: absolute;
+    max-width: 1440px;
+
+    .x {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        // border: 1px solid;
+        display: flex;
+        color: var(--White);
+        padding: 10px 0;
+
+        &:hover {
+            border-bottom: 2px solid;
+
+        }
+
+        &:nth-child(2) {
+            border-bottom: none !important;
+        }
+    }
+
+    h1 {
+        padding: 0 30px 0px 0;
+    }
+
+    h2 {
+        padding: 0 20px;
+        align-self: center;
+font-size: 14px;
+    }
+}
+
+body {
+    @extend .display;
+}
+
+main {
+    max-width: 1440px;
+}
+
+.top-content {
+    @extend .display;
+
+    .big_image {
+        min-width: 400px;
+        max-width: 1000px;
+        width: 100%;
+
+    }
+
+    .second-display {
+        // border: 1px solid;
+        width: 65%;
+        position: relative;
+        // align-self: center;
+        padding: 70px;
+
+        .column-1,
+        .column-2,
+        .column-3 {
+            display: none;
+        }
+
+        h1 {
+            font-size: 38px;
+            padding-bottom: 30px;
+        }
+
+        p {
+            padding-bottom: 20px;
+            // line-height: 1.5;
+            color: var(--Dark_Gray);
+        }
+
+        #shop_now {
+            letter-spacing: 6px;
+            color: var(--Dark_Gray);
+            font-size: 14px;
+            border: none;
+            background-color: transparent;
+            text-transform: uppercase;
+
+            &:hover {
+                color: var(--Black);
+            }
+        }
+
+        .container-button {
+            // padding: 30px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            cursor: pointer;
+            display: flex;
+
+            img {
+                // margin: 0 0px -2px 0;
+                background-color: var(--Black);
+                padding: 80%;
+
+                &:hover {
+                    background-color: var(--Very_Dark_Gray);
+                }
+            }
+        }
+    }
+}
+
+.bottom-content {
+    width: 100%;
+    min-height: 300px;
+    @extend .display;
+
+    img {
+        width: 100%;
+        min-width: 100px;
+        max-width: 900px;
+        object-fit: cover;
+
+    }
+
+    .display-two {
+        width: 100%;
+        padding: 0 40px;
+        align-self: center;
+
+        h1 {
+            padding-bottom: 20px;
+            letter-spacing: 5px;
+            font-size: 16px;
+            text-transform: uppercase;
+            // font-family: ;
+        }
+
+        p {
+            color: var(--Dark_Gray);
+        }
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        // flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        color: var(--Black);
+
+        .x {
+            display: block;
+            font-size: 30px;
+            color: var(--Dark_Gray);
+            position: absolute;
+            left: 40px;
+            top: 48px;
+            font-weight: 100;
+            cursor: pointer;
+        }
+
+        a {
+            text-align: center;
+            color: var(--Black);
+            font-size: 18px;
+
+            h1 {
+                text-align: center;
+                color: var(--White);
+                position: absolute;
+                left: 55%;
+                transform: translateX(-50%);
+                // t
+            }
+
+            h2 {
+                display: none;
+            }
+        }
+    }
+
+    .top-content {
+        flex-direction: column;
+
+        .big_image {
+            object-fit: cover;
+        }
+
+        .second-display {
+            padding: 40px;
+            width: 100%;
+
+            .container-button {
+                top: -64px;
+                bottom: auto;
+                right: 0;
+                left: auto;
+
+                img {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+
+    .bottom-content {
+        flex-direction: column;
+
+        .display-two {
+            padding: 40px;
+        }
+    }
+
+
+}

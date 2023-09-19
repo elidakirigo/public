@@ -1,0 +1,27 @@
+@use './functions.scss'as *;
+
+// 640px, 1150px, 1400px
+$medium : em(640);
+$large : em(1200);
+$xlarge : em(1400);
+
+$breakpoints-up: ('medium': $medium, 'large': $large, 'xlarge':$xlarge, );
+
+// 639px, 1149px, 1399px
+$small : em(639);
+$medium-down : em(1149);
+$large-down : em(1399);
+
+$breakpoints-down: ('small':$small, 'medium':$medium-down, 'large':$large-down, );
+
+@mixin breakpoint($size) {
+ @media (min-width: map-get($breakpoints-up, $size)) {
+  @content;
+ }
+}
+
+@mixin breakpoint-down($size) {
+ @media (max-width: map-get($breakpoints-down, $size)) {
+  @content;
+ }
+}

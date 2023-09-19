@@ -1,0 +1,28 @@
+.header {
+  margin-top: 2.25rem;
+  margin-bottom: 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media (min-width: 40em) {
+  .header {
+    justify-content: space-between;
+  }
+}
+.header__title {
+  width: 100%;
+}
+@media (min-width: 40em) {
+  .header__title {
+    width: auto;
+  }
+}
+.header__subtitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-color-2);
+}
+.header__toggle {
+  margin-left: auto;
+}/*# sourceMappingURL=header.css.map */
