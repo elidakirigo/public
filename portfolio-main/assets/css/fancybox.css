@@ -233,7 +233,7 @@ body:not(.is-using-mouse) .fancybox__container :focus {
   width: 100%;
   max-width: 100%;
   margin: 0;
-  padding: 48px 8px 8px 8px;
+  padding: 48px 8px 8px;
   position: relative;
   overscroll-behavior: contain;
   display: flex;
@@ -280,7 +280,7 @@ body:not(.is-using-mouse) .fancybox__container :focus {
   align-self: center;
   max-width: 100%;
   margin: 0;
-  padding: 1rem 0 0 0;
+  padding: 1rem 0 0;
   line-height: 1.375;
   color: var(--fancybox-color, currentColor);
   visibility: visible;
@@ -324,8 +324,6 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 
 .carousel__button.is-close {
   position: absolute;
-  top: 8px;
-  right: 8px;
   top: calc(env(safe-area-inset-top, 0px) + 8px);
   right: calc(env(safe-area-inset-right, 0px) + 8px);
   z-index: 40;
