@@ -234,12 +234,10 @@ body.dark-theme {
 }
 
 #progress-value {
-	display: block;
 	height: calc(100% - 5px);
 	width: calc(100% - 5px);
 	background-color: var(--tertiary);
 	border-radius: 50%;
-	display: -ms-grid;
 	display: grid;
 	place-items: center;
 	font-size: 24px;
@@ -361,7 +359,6 @@ p {
 #kursorWrapper {
 	position: fixed;
 	z-index: 99999;
-	overflow: hidden;
 	pointer-events: none;
 	top: 0;
 	left: 0;
@@ -875,8 +872,6 @@ header.has-style-01 ul.social {
 	position: absolute;
 	right: -8rem;
 	top: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
 	-webkit-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 }
@@ -1195,7 +1190,7 @@ header.has-style-02 .shape-03 {
 	right: -50px;
 	background: var(--secondary);
 	color: var(--white);
-	border-radius: 0.3rem 0 0 0;
+	border-radius: 0.3rem 0 0;
 	font-size: 18px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2771,7 +2766,6 @@ header.has-style-02 .shape-03 {
 
 .contact-me.has-style-01 .contact_form .form-group input,
 .contact-me.has-style-01 .contact_form .form-group textarea {
-	border: none;
 	background: var(--tertiary-02);
 	color: var(--white);
 	border: 1px solid transparent;
