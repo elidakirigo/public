@@ -49,16 +49,12 @@ const social_link = [
 		icon: 'fa-brands fa-github',
 	},
 	{
-		link: 'https://www.linkedin.com/in/christian-siku/',
+		link: 'https://www.linkedin.com/in/elidakirigo/',
 		icon: 'fa-brands fa-linkedin-in',
 	},
 	{
-		link: 'https://twitter.com/christian_siku/',
+		link: 'https://twitter.com/kirkieui/',
 		icon: 'fa-brands fa-twitter',
-	},
-	{
-		link: 'https://angel.co/u/chris-siku',
-		icon: 'fa-brands fa-angellist',
 	},
 ]
 
