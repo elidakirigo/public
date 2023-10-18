@@ -1,19 +1,21 @@
+const allstacks = {
+	HTML: { link: 'https://en.wikipedia.org/wiki/HTML', name: 'HTML' },
+	BOOTSTRAP: {
+		link: 'https://getbootstrap.com/docs/5.0/getting-started/introduction/',
+		name: 'Bootstrap 5',
+	},
+}
+
+const { HTML, BOOTSTRAP } = allstacks
+
 const allPosts = [
 	// API AUthetication
 	{
 		topic: 'feature',
-		link: 'https://github.com/elidakirigo/rails-api-authentication-crud',
+		// link: 'https://github.com/elidakirigo/rails-api-authentication-crud',
 		title: 'Hotel Booking',
 		content: ``,
-		stacks: [
-			{ link: 'https://www.ruby-lang.org/es/', name: 'Ruby' },
-			{ link: 'https://guides.rubyonrails.org/', name: 'Rails' },
-			{ link: 'https://en.wikipedia.org/wiki/HTML', name: 'HTML' },
-			{
-				link: 'https://getbootstrap.com/docs/5.0/getting-started/introduction/',
-				name: 'Bootstrap 5',
-			},
-		],
+		stacks: [HTML, BOOTSTRAP],
 		live: [true, 'https://github.com/elidakirigo/rails-api-authentication-crud'],
 		source: [true, 'https://github.com/elidakirigo/rails-api-authentication-crud'],
 		image: 'https://user-images.githubusercontent.com/101924220/209710207-edf76c66-5034-4cf0-aae4-6b1479663456.png',

@@ -12,11 +12,11 @@ allPosts.map((element) => {
 		`
 		<div class="item-image"> 
                   <a target="_blank" class="link-image" href="${element.live[1]}">
-                      <i class="fa fa-eye"></i>
+                      <i class="fa fa-link"></i>
                   </a>
   
                   <a target="_blank" class="link-view" href="${element.source[1]}">
-                      <i class="fab fa-github"></i>
+                      <i class="fa-solid fa-qrcode"></i>
                   </a>
                   <img src="${element.image}" alt="image ${element.title}" /> 
                 </div>` +
