@@ -5,21 +5,19 @@ const topic = document.querySelector('#topic')
 // Skills
 
 const allSkills = [
+	{ skill_name: 'React.js', percentage: 85 }, 
+	{ skill_name: 'Typescript', percentage: 80 },
 	{ skill_name: 'JavaScript', percentage: 90 },
-	{ skill_name: 'HTML', percentage: 100 },
+	{ skill_name: 'Material UI', percentage: 80 },
+	{ skill_name: 'Redux', percentage: 80 },
+	{ skill_name: 'Next.js', percentage: 80 },
 	{ skill_name: 'CSS', percentage: 100 },
 	{ skill_name: 'Bootstrap', percentage: 100 },
-	{ skill_name: 'Tailwind css', percentage: 80 },
-	{ skill_name: 'Material UI', percentage: 70 },
-	{ skill_name: 'React.js', percentage: 80 },
-	{ skill_name: 'Redux', percentage: 80 },
-	{ skill_name: 'Next.js', percentage: 70 },
-	{ skill_name: 'Typescript', percentage: 70 },
-	{ skill_name: 'Ruby', percentage: 80 },
-	{ skill_name: 'Rails', percentage: 80 },
-	{ skill_name: 'Stimulus', percentage: 55 },
-	{ skill_name: 'PHP', percentage: 70 },
-	{ skill_name: 'SQL', percentage: 95 },
+	{ skill_name: 'Tailwind css', percentage: 80 }, 
+	{ skill_name: 'Node js', percentage: 80 },
+	{ skill_name: 'SCSS', percentage: 100 },
+	{ skill_name: 'Solidity', percentage: 55 },
+	{ skill_name: 'HTML', percentage: 100 },
 ]
 
 allSkills.map((skill) => {
