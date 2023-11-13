@@ -72,9 +72,9 @@ social_link.map((item) => {
 
 const allTopics = [
 	{ title: 'All works', class: 'all' },
-	{ title: 'Web design', class: '.web' },
-	{ title: 'Responsive', class: '.responsive' },
-	{ title: 'Features', class: '.feature' },
+	{ title: 'FullStack', class: '.web' },
+	{ title: 'BlockChain', class: '.responsive' },
+	{ title: 'SAAS Features', class: '.feature' },
 ]
 
 allTopics.map((item) => {

@@ -1,10 +1,10 @@
 // portfolio
-const portfolio = document.querySelector('#posts') 
+const portfolio = document.querySelector('#posts')
 
 allPosts.map((element) => {
 	html =
 		`
-      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix ${element.topic}">
+      <div class="carousel-item col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix ${element.topic}">
               <div class="item-card">
                 <h4><a target="_blank" class="title-link" href="${element.link}">${element.title}</a></h4>
                 <p>${element.content}</p>
