@@ -40,11 +40,8 @@ body {
 .CarouselItem {
 	display: grid;
 	grid-template-columns: auto auto auto;
-}
+} 
 
-.mix {
-	display: inline-block;
-}
 .carousel-item.active {
 	display: inline-flex !important;
 }
