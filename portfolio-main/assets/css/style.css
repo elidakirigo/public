@@ -45,6 +45,9 @@ body {
 .carousel-item.active {
 	display: inline-flex !important;
 }
+.carousel-indicators{
+	bottom: -40px !important;
+}
 /*=============== THEME ===============*/
 .change-theme {
 	/* position: absolute;

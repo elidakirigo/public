@@ -1,5 +1,6 @@
 // portfolio
 const portfolio = document.querySelector('#posts')
+// const carousel_indicators_div = document.querySelector('.carousel-indicators')
 
 let SingleComponent = []
 allPosts.map((element, i) => {
@@ -42,6 +43,12 @@ let CarouselItem = component.map((element, i) => {
 	if (i == 0) return `<div class='carousel-item active row auction-filter justify-content-center'>  ${element.join(' ')} </div>`
 	return `<div class='row carousel-item '> ${element.join(' ')} </div>`
 })
+
+// let carousel_Indicators = Array(CarouselItem.length).fill(' ').map((element, i) => {
+// 	return `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}" aria-label="Slide ${i + 1}"></button>`
+// })
+// carousel_Indicators = carousel_Indicators.join(' ')
 CarouselItem = CarouselItem.join(' ')
 
+// carousel_indicators_div.insertAdjacentHTML('beforeend', carousel_Indicators)
 portfolio.insertAdjacentHTML('beforeend', CarouselItem)

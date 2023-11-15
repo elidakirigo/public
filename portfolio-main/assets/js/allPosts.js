@@ -42,7 +42,7 @@ const allPosts = [
 	// Folio
 	{
 		topic: 'responsive',
-		link: 'https://chris-siku.vercel.app/',
+		link: 'https://elidakirigo.vercel.app/',
 		title: 'Folio website',
 		content: ``,
 		stacks: [
@@ -53,8 +53,8 @@ const allPosts = [
 			{ link: 'https://en.wikipedia.org/wiki/CSS', name: 'CSS' },
 			{ link: 'https://en.wikipedia.org/wiki/HTML', name: 'HTML' },
 		],
-		live: [true, 'https://chris-siku.vercel.app/'],
-		source: [true, 'https://github.com/elidakirigo/Chris-Siku-v1'],
+		live: [true, 'https://elidakirigo.vercel.app/'],
+		source: [true, 'https://github.com/elidakirigo/elidakirigo-v1'],
 		image: 'https://user-images.githubusercontent.com/101924220/209703582-eeb2e313-50a3-49a8-b133-8c5a6f5d49ea.png',
 	},
 	// House rental
@@ -162,7 +162,7 @@ const allPosts = [
 	// Portfolio website
 	{
 		topic: 'web',
-		link: 'https://chris-siku.netlify.app/',
+		link: 'https://elidakirigo.netlify.app/',
 		title: 'Portfolio website',
 		content: ``,
 		stacks: [
@@ -174,7 +174,7 @@ const allPosts = [
 			{ link: 'https://en.wikipedia.org/wiki/CSS', name: 'CSS' },
 			{ link: 'https://www.javascript.com/', name: 'JavaScript' },
 		],
-		live: [true, 'https://chris-siku.netlify.app/'],
+		live: [true, 'https://elidakirigo.netlify.app/'],
 		source: [true, 'https://github.com/elidakirigo/my-portfolio'],
 		image: 'https://user-images.githubusercontent.com/101924220/209657844-94b71a71-f467-45e5-87f0-1f2e65c9642f.png',
 	},
