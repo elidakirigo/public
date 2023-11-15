@@ -8,7 +8,7 @@
 }
 
 body {
-	background: var(--primary) url(../images/shape/border.png) fixed center;
+	background: var(--primary) url(../img/shape/border.png) fixed center;
 	background-size: 17%;
 	color: var(--gray);
 	font-size: 17px;
@@ -26,14 +26,27 @@ body {
 	--tertiary-02: rgba(23, 31, 56, 0.5);
 }
 /* modal */
-.modal-title{
+.modal-title {
 	color: var(--primary);
 }
-.btn-setPrimary{
+.btn-setPrimary {
 	background-color: var(--primary);
 }
-.modal-content .btn-close{
+.modal-content .btn-close {
 	color: var(--primary);
+}
+
+/* ============ CarouselItem ========== */
+.CarouselItem {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.mix {
+	display: inline-block;
+}
+.carousel-item.active {
+	display: inline-flex !important;
 }
 /*=============== THEME ===============*/
 .change-theme {
@@ -656,7 +669,7 @@ div[class*='kursorChild'].kursorChild:after {
 .btn-special {
 	color: #fff;
 	border: 2px solid transparent;
-	padding: .275rem .75rem;
+	padding: 0.275rem 0.75rem;
 	text-decoration: none;
 	border-radius: 0.5rem;
 	min-width: 0 !important;
