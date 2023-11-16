@@ -35,18 +35,31 @@ body {
 .modal-content .btn-close {
 	color: var(--primary);
 }
+/* ======== Image =============== */
+.img-elm {
+	object-fit: cover;
+}
 
 /* ============ CarouselItem ========== */
 .CarouselItem {
 	display: grid;
 	grid-template-columns: auto auto auto;
-} 
+}
 
 .carousel-item.active {
 	display: inline-flex !important;
 }
-.carousel-indicators{
+.carousel-indicators {
 	bottom: -40px !important;
+}
+.carousel-control-prev{
+	width: 5% !important;
+	left:-40px !important;
+}
+.carousel-control-next{
+	width: 5% !important;
+	right:-20px !important;
+
 }
 /*=============== THEME ===============*/
 .change-theme {
@@ -1194,6 +1207,7 @@ header.has-style-02 .shape-03 {
 	border-radius: 1rem;
 	overflow: hidden;
 	position: relative;
+	height: 300px;
 }
 
 .portfolio.has-style-01 .item-card .item-image .link-image,

@@ -14,11 +14,11 @@ allPosts.map((element, i) => {
 		<i class="fa fa-link"></i> 
 		</a> 
 		<a target="_blank" class="link-view" href="${element.source[1]}"> <i class="fa-solid fa-qrcode"></i></a> 
-		<img src="${element.image}" alt="image ${element.title}" /></div>` +
+		<img src="${element.image}" alt="image ${element.title}" class="img-fluid img-elm"/></div>` +
 			`<ul class="tag-link">` +
 			element.stacks
-				.map((stack) => {
-					return `<li><a target="_blank" href="${stack.link}">${stack.name}</a></li>`
+				.map((stack, index) => {
+					return `<li><a target="_blank" href="#">${stack}</a></li>`
 				})
 				.join('') +
 			`</ul>` +
