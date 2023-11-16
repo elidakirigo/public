@@ -27,7 +27,7 @@ const allPosts = [
 		title: 'Desktop App - Image Resizer ',
 		content: ``,
 		stacks: [ 'electron js' ],
-		live: [true, 'https://github.com/elidakirigo/elctronApp'],
+		live: [true, 'https://image-resizer-electron.netlify.app/renderer/'],
 		source: [true, 'https://github.com/elidakirigo/electronApp'],
 		image: './assets/img/screenshots/image-resizer.png',
 	},
