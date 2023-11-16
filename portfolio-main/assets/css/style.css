@@ -52,14 +52,13 @@ body {
 .carousel-indicators {
 	bottom: -40px !important;
 }
-.carousel-control-prev{
+.carousel-control-prev {
 	width: 5% !important;
-	left:-40px !important;
+	left: -40px !important;
 }
-.carousel-control-next{
+.carousel-control-next {
 	width: 5% !important;
-	right:-20px !important;
-
+	right: -20px !important;
 }
 /*=============== THEME ===============*/
 .change-theme {
