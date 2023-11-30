@@ -26,7 +26,7 @@ const allPosts = [
 		link: 'https://github.com/elidakirigo/hotel-booking-backend',
 		title: 'Desktop App - Image Resizer ',
 		content: ``,
-		stacks: [ 'electron js' ],
+		stacks: ['electron js'],
 		live: [true, 'https://image-resizer-electron.netlify.app/renderer/'],
 		source: [true, 'https://github.com/elidakirigo/electronApp'],
 		image: './assets/img/screenshots/image-resizer.png',
@@ -37,30 +37,22 @@ const allPosts = [
 		link: 'https://elidakirigo.vercel.app/',
 		title: 'Todos',
 		content: ``,
-		stacks: [ 'svelte','sveltekit','tailwind css' ],
+		stacks: ['svelte', 'sveltekit', 'tailwind css'],
 		live: [true, 'https://elidakirigo.vercel.app/'],
 		source: [true, 'https://github.com/elidakirigo/elidakirigo-v1'],
 		image: './assets/img/screenshots/todo-svelte.png',
 	},
-	// // House rental
-	// {
-	// 	topic: 'responsive',
-	// 	link: 'https://elidakirigo.github.io/real-estate/index.html',
-	// 	title: 'Real Estate',
-	// 	content: ``,
-	// 	stacks: [
-	// 		{
-	// 			link: 'https://getbootstrap.com/docs/5.0/getting-started/introduction/',
-	// 			name: 'Bootstrap 5',
-	// 		},
-	// 		{ link: 'https://www.learn-html.org/', name: 'HTML' },
-	// 		{ link: 'https://en.wikipedia.org/wiki/CSS', name: 'CSS' },
-	// 		{ link: 'https://www.javascript.com/', name: 'JavaScript' },
-	// 	],
-	// 	live: [true, 'https://elidakirigo.github.io/real-estate/index.html'],
-	// 	source: [true, 'https://github.com/elidakirigo/real-estate'],
-	// 	image: 'https://user-images.githubusercontent.com/101924220/209696457-a0769944-e81f-49d9-a8a3-c3e5edcc2923.png',
-	// },
+	// IP address tracker
+	{
+		topic: 'responsive',
+		link: 'https://elidakirigo.github.io/real-estate/index.html',
+		title: 'GeoLocation - IP tracker',
+		content: ``,
+		stacks: ['vueJS', 'TailwindCSS'],
+		live: [true, 'https://elidakirigo.github.io/real-estate/index.html'],
+		source: [true, 'https://github.com/elidakirigo/real-estate'],
+		image: './assets/img/screenshots/IP-address-Tracker.png',
+	},
 	// // Progressive web app
 	// {
 	// 	topic: 'feature',
