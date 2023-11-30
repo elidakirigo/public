@@ -9,6 +9,17 @@ const allstacks = {
 const { HTML, BOOTSTRAP } = allstacks
 
 const allPosts = [
+	// Angular e-commerce store
+	{
+		topic: 'feature',
+		link: 'https://pw-food-a.netlify.app/?',
+		title: 'Shopping & Apparel App',
+		content: ``,
+		stacks: ['Angular', 'stripe', 'nodeJS', 'Tailwind'],
+		live: [true, 'https://pw-food-a.netlify.app/?'],
+		source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
+		image: './assets/img/screenshots/AngularStore.png',
+	},
 	// Wordle Game
 	{
 		topic: 'feature',
@@ -53,22 +64,7 @@ const allPosts = [
 		source: [true, 'https://github.com/elidakirigo/real-estate'],
 		image: './assets/img/screenshots/IP-address-Tracker.png',
 	},
-	// // Progressive web app
-	// {
-	// 	topic: 'feature',
-	// 	link: 'https://pw-food-a.netlify.app/?',
-	// 	title: 'Progressive web App',
-	// 	content: ``,
-	// 	stacks: [
-	// 		{ link: 'https://www.learn-html.org/', name: 'HTML' },
-	// 		{ link: 'https://en.wikipedia.org/wiki/CSS', name: 'CSS' },
-	// 		{ link: 'https://www.javascript.com/', name: 'JavaScript' },
-	// 		{ link: 'https://web.dev/progressive-web-apps/', name: 'PWA' },
-	// 	],
-	// 	live: [true, 'https://pw-food-a.netlify.app/?'],
-	// 	source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
-	// 	image: 'https://user-images.githubusercontent.com/101924220/209708303-486fef6d-7ddf-45b3-9518-87d8159406f5.png',
-	// },
+
 	// // Rails blog
 	// {
 	// 	topic: 'feature',
