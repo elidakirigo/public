@@ -11,3 +11,5 @@ yarn dev
 
 [github repo](https://github.com/wass08/r3f-vite-starter.git)
 [youtube link]()
+
+yarn add --dev tailwindcss postcss autoprefixer
