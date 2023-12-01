@@ -13,3 +13,5 @@ yarn dev
 [youtube link]()
 
 yarn add --dev tailwindcss postcss autoprefixer
+
+tailwind with vite - https://tailwindcss.com/docs/guides/vite
