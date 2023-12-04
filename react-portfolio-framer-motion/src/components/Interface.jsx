@@ -4,7 +4,7 @@ const Section = (props) => {
 	const { children } = props
 
 	return (
-		<motion.section className={`h-screen w-screen p-8 max-w-screen-2xl mx-auto flex flex-col items-start justify-center`} initial={{ opacity: 0, y: 50 }}>
+		<motion.section className={`h-screen w-screen p-8 max-w-screen-2xl mx-auto flex flex-col items-start justify-center`} initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0, transition: { duration: 1, delay: 0.6 } }}>
 			{children}
 		</motion.section>
 	)
@@ -29,7 +29,13 @@ const AboutSection = () => {
 				Hi, I'm <br />
 				<span className='bg-white px-1 italic'>Elida wanjiku</span>
 			</h1>
-			<p className='text-lg text-gray-600 mt-4'>I Make Youtube videos to help developers</p>
+			<motion.p className='text-lg text-gray-600 mt-4' initial={{ opacity: 0, y: 25 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1.5 }}>
+				I Make Youtube videos to help developers <br />
+				learn how to build 3D apps
+			</motion.p>
+			<motion.button className='bg-indigo-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16' initial={{ opacity: 0, y: 25 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 2 }}>
+				Contact me
+			</motion.button>
 		</Section>
 	)
 }
