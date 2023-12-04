@@ -14,4 +14,6 @@ yarn dev
 
 yarn add --dev tailwindcss postcss autoprefixer
 
+yarn add framer-motion framer-motion-3d
+
 tailwind with vite - https://tailwindcss.com/docs/guides/vite
