@@ -2,8 +2,10 @@ import { Canvas } from '@react-three/fiber'
 import { Experience } from './components/Experience'
 import { Scroll, ScrollControls } from '@react-three/drei'
 import { Interface } from './components/Interface'
+import { useState } from 'react'
 
 function App() {
+	const [section, setSection] = useState(0)
 	return (
 		<>
 			<Canvas shadows camera={{ position: [3, 3, 3], fov: 30 }}>
