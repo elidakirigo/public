@@ -85,9 +85,11 @@ const SkillsSection = () => {
 				<div className='mt-8 space-y-4'>
 					{skills.map((skill, index) => (
 						<div className='w-64' key={index}>
-							<h3 className='text-xl font-bold text-gray-800'>{skill.title}</h3>
+							<motion.h3 className='text-xl font-bold text-gray-800' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 1 + index * 0.2 }}>
+								{skill.title}
+							</motion.h3>
 							<div className='h-2 w-full bg-gray-200 rounded-full mt-2'>
-								<div className='h-full bg-indigo-500 rounded-full' style={{ width: `${skill.level}%` }}></div>
+								<motion.div className='h-full bg-indigo-500 rounded-full' style={{ width: `${skill.level}%` }} initial={{ scaleX: 0, originX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 1, delay: 1 + index * 0.2 }} />
 							</div>
 						</div>
 					))}
