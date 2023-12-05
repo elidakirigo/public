@@ -89,7 +89,7 @@ const SkillsSection = () => {
 								{skill.title}
 							</motion.h3>
 							<div className='h-2 w-full bg-gray-200 rounded-full mt-2'>
-								<motion.div className='h-full bg-indigo-500 rounded-full' style={{ width: `${skill.level}%` }} initial={{ scaleX: 0, originX: 0 }} whileInView={{ scaleX: 1 }} variants={{ visible: { scaleX: 1 }, transition: { duration: 1, delay: 1 + index * 0.2 } }} />
+								<motion.div className='h-full bg-indigo-500 rounded-full' style={{ width: `${skill.level}%` }} initial={{ scaleX: 0, originX: 0 }}  variants={{ visible: { scaleX: 1 }, transition: { duration: 1, delay: 1 + index * 0.2 } }} />
 							</div>
 						</div>
 					))}
