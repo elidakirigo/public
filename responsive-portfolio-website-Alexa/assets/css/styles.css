@@ -147,7 +147,7 @@ img {
 
 .section__title {
 	font-size: var(--h1-font-size);
-	color: var(--title-color);
+	/* color: var(--title-color); */
 }
 
 .section__subtitle {
