@@ -789,11 +789,11 @@ img {
 	right: -0.5rem;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
+.swiper-container-horizontal > .swiper-pagination-bullets {
 	bottom: -2.5rem;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
+.swiper-container-horizontal > .swiper-pagination-bullets {
 	bottom: -2.5rem;
 }
 
@@ -1295,7 +1295,6 @@ img {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
-
 	.header,
 	.main,
 	.footer__container {
@@ -1307,7 +1306,7 @@ img {
 	}
 
 	.home__social {
-		transform: translateX(-6rem)
+		transform: translateX(-6rem);
 	}
 
 	.services__container {
@@ -1330,7 +1329,7 @@ img {
 		right: -3.5rem;
 	}
 
-	.swiper-container-horizontal>.swiper-pagination-bullets {
+	.swiper-container-horizontal > .swiper-pagination-bullets {
 		bottom: -4.5rem;
 	}
 
