@@ -578,7 +578,7 @@ img {
 	margin-bottom: var(--mb-2);
 }
 
- .qualification__button {
+.qualification__button {
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-medium);
 	cursor: pointer;
@@ -613,7 +613,7 @@ img {
 .qualification__calendar {
 	font-size: var(--smaller-font-size);
 	color: var(--text-color-light);
-} 
+}
 .qualification__rounder {
 	display: inline-block;
 	width: 13px;
@@ -689,7 +689,7 @@ img {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0,0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -699,7 +699,7 @@ img {
 	visibility: hidden;
 	transition: 0.3s;
 }
- 
+
 .services__modal-content {
 	position: relative;
 	background-color: var(--container-color);
@@ -715,7 +715,7 @@ img {
 	display: flex;
 }
 
- .services__modal-title {
+.services__modal-title {
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-medium);
 	margin-bottom: var(--mb-1-5);
