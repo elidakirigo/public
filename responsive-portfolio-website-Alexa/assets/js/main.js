@@ -51,7 +51,7 @@ skillsHeader.forEach((el) => {
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
 	tabContents = document.querySelectorAll('[data-content]')
-console.log(tabs);
+
 tabs.forEach((tab) => {
 	tab.addEventListener('click', () => {
 		const target = document.querySelector(tab.dataset.target)
@@ -67,43 +67,43 @@ tabs.forEach((tab) => {
 		tab.classList.add('qualification__active')
 	})
 })
-// /*==================== SERVICES MODAL ====================*/
-// const modalViews = document.querySelectorAll('.services__modal'),
-// 	modalBtns = document.querySelectorAll('.services__button'),
-// 	modalCloses = document.querySelectorAll('.services__modal-close')
+/*==================== SERVICES MODAL ====================*/
+const modalViews = document.querySelectorAll('.services__modal'),
+	modalBtns = document.querySelectorAll('.services__button'),
+	modalCloses = document.querySelectorAll('.services__modal-close')
 
-// let modal = function (modalClick) {
-// 	modalViews[modalClick].classList.add('active-modal')
-// }
+let modal = function (modalClick) {
+	modalViews[modalClick].classList.add('active-modal')
+}
 
-// modalBtns.forEach((modalBtn, i) => {
-// 	modalBtn.addEventListener('click', () => {
-// 		modal(i)
-// 	})
-// })
+modalBtns.forEach((modalBtn, i) => {
+	modalBtn.addEventListener('click', () => {
+		modal(i)
+	})
+})
 
-// modalCloses.forEach((modalClose) => {
-// 	modalClose.addEventListener('click', () => {
-// 		modalViews.forEach((modalView) => {
-// 			modalView.classList.remove('active-modal')
-// 		})
-// 	})
-// })
-// /*==================== PORTFOLIO SWIPER  ====================*/
-// let swiperPortfolio = new Swiper('.portfolio__container', {
-// 	cssMode: true,
-// 	loop: true,
-// 	navigation: {
-// 		nextEl: '.swiper-button-next',
-// 		prevEl: '.swiper-button-prev',
-// 	},
-// 	pagination: {
-// 		el: '.swiper-pagination',
-// 		clickable: true,
-// 	},
-// 	// mousewheel: true,
-// 	// keyboard: true,
-// })
+modalCloses.forEach((modalClose) => {
+	modalClose.addEventListener('click', () => {
+		modalViews.forEach((modalView) => {
+			modalView.classList.remove('active-modal')
+		})
+	})
+})
+/*==================== PORTFOLIO SWIPER  ====================*/
+let swiperPortfolio = new Swiper('.portfolio__container', {
+	cssMode: true,
+	loop: true,
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+	// mousewheel: true,
+	// keyboard: true,
+})
 // /*==================== TESTIMONIAL ====================*/
 // // let swiperTestimonial = new Swiper('.testimonial__container', {
 // // 	loop: true,
