@@ -105,6 +105,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 	// keyboard: true,
 })
 /*==================== TESTIMONIAL ====================*/
+
 let swiperTestimonial = new Swiper('.testimonial__container', {
 	loop: true,
 	grabCursor: true,
