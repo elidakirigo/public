@@ -699,7 +699,7 @@ img {
 	visibility: hidden;
 	transition: 0.3s;
 }
-
+/* 
 .services__modal-content {
 	position: relative;
 	background-color: var(--container-color);
@@ -734,12 +734,12 @@ img {
 	color: var(--first-color);
 	margin-right: var(--mb-0-25);
 }
-
+ */
 /* Active Modal */
-.active-modal {
+/* .active-modal {
 	opacity: 1;
 	visibility: visible;
-}
+} */
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
