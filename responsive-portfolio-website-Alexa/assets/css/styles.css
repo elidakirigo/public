@@ -116,6 +116,7 @@ body {
 	font-size: var(--normal-font-size);
 	background-color: var(--body-color);
 	color: var(--text-color);
+	/* width: 120%; */
 }
 
 h1,
@@ -632,7 +633,7 @@ img {
 }
 
 .qualification [data-content] {
-	display: none;
+	/* display: none; */
 }
 
 .qualification__active [data-content] {
