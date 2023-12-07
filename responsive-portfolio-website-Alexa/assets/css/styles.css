@@ -578,7 +578,7 @@ img {
 	margin-bottom: var(--mb-2);
 }
 
-.qualification__button {
+ .qualification__button {
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-medium);
 	cursor: pointer;
@@ -587,7 +587,7 @@ img {
 .qualification__button:hover {
 	color: var(--first-color);
 }
-
+/*
 .qualification__icon {
 	font-size: 1.8rem;
 	margin-right: var(--mb-0-25);
@@ -613,23 +613,23 @@ img {
 .qualification__calendar {
 	font-size: var(--smaller-font-size);
 	color: var(--text-color-light);
-}
+} */
 
-.qualification__rounder {
+/* .qualification__rounder {
 	display: inline-block;
 	width: 13px;
 	height: 13px;
 	background-color: var(--first-color);
 	border-radius: 50%;
-}
+} */
 
-.qualification__line {
+/* .qualification__line {
 	display: block;
 	width: 1px;
 	height: 100%;
 	background-color: var(--first-color);
 	transform: translate(6px, -7px);
-}
+} */
 
 .qualification [data-content] {
 	/* display: none; */
