@@ -1159,7 +1159,7 @@ img {
 	}
 
 	.nav__list {
-		display: flex;
+		display: flex !important;
 		column-gap: 2rem;
 	}
 
