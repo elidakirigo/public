@@ -168,7 +168,7 @@ img {
 }
 
 .grid {
-	display: grid;
+	display: grid !important;
 	gap: 1.5rem;
 }
 
