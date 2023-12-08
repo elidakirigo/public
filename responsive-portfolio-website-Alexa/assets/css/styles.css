@@ -764,7 +764,7 @@ img {
 .portfolio__description {
 	margin-bottom: var(--mb-0-75);
 }
-.portfolio__button{
+.portfolio__button {
 	margin-bottom: 40px;
 }
 .portfolio__button:hover .button__icon {
@@ -1056,7 +1056,7 @@ img {
 	}
 
 	.qualification__data {
-		gap: .5rem;
+		gap: 0.5rem;
 	}
 
 	.services__container {
@@ -1150,7 +1150,7 @@ img {
 	.header,
 	.main,
 	.footer__container {
-		padding:  1rem;
+		padding: 1rem;
 	}
 
 	.nav {
@@ -1240,7 +1240,7 @@ img {
 	}
 
 	.services__content {
-		padding: 6rem  2.5rem;
+		padding: 6rem 2.5rem;
 	}
 
 	.services__modal-content {
@@ -1299,11 +1299,11 @@ img {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
-	.header,
+	/* .header,
 	.main,
-	.footer__container {
-		/* padding: 0; */
-	}
+	.footer__container { 
+		padding: 0; 
+	} */
 
 	.home__blob {
 		width: 320px;
