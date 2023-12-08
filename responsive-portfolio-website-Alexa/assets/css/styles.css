@@ -162,7 +162,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-	max-width: 768px;
+	max-width: 897px;
 	margin-left: var(--mb-1-5);
 	margin-right: var(--mb-1-5);
 }
@@ -1276,7 +1276,7 @@ img {
 	}
 
 	.footer__container {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(3, auto);
 	}
 
 	.footer__bg {
@@ -1325,13 +1325,13 @@ img {
 		font-size: 3.5rem;
 	}
 
-	.swiper-button-prev {
-		left: -3.5rem;
+	/* .swiper-button-prev {
+		left: -3.5rem !important;
 	}
 
 	.swiper-button-next {
-		right: -3.5rem;
-	}
+		right: -3.5rem !important;
+	} */
 
 	.swiper-container-horizontal > .swiper-pagination-bullets {
 		bottom: -4.5rem;
