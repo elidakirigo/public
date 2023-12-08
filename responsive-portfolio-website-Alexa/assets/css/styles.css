@@ -1150,7 +1150,7 @@ img {
 	.header,
 	.main,
 	.footer__container {
-		padding: 0 1rem;
+		padding:  1rem;
 	}
 
 	.nav {
@@ -1166,7 +1166,7 @@ img {
 
 	.nav__list {
 		display: flex !important;
-		column-gap: 2rem;
+		gap: 2rem;
 	}
 
 	.nav__menu {
