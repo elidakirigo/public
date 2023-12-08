@@ -1240,7 +1240,7 @@ img {
 	}
 
 	.services__content {
-		padding: 6rem 0 2.5rem;
+		padding: 6rem  2.5rem;
 	}
 
 	.services__modal-content {
@@ -1302,7 +1302,7 @@ img {
 	.header,
 	.main,
 	.footer__container {
-		padding: 0;
+		/* padding: 0; */
 	}
 
 	.home__blob {
