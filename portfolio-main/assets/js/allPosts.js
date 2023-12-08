@@ -24,7 +24,7 @@ const allPosts = [
 	{
 		topic: 'feature',
 		// link: 'https://github.com/elidakirigo/rails-api-authentication-crud',
-		title: 'Wordle Game',
+		title: 'Wordle Game - Basic',
 		content: ``,
 		stacks: ['html', 'javascript', 'scss'],
 		live: [true, 'https://worddle-2.netlify.app/'],
@@ -65,21 +65,17 @@ const allPosts = [
 		image: './assets/img/screenshots/IP-address-Tracker.png',
 	},
 
-	// // Rails blog
-	// {
-	// 	topic: 'feature',
-	// 	link: 'https://github.com/elidakirigo/Rails-Blog',
-	// 	title: 'Rails Blog',
-	// 	content: ``,
-	// 	stacks: [
-	// 		{ link: 'https://www.ruby-lang.org/es/', name: 'Ruby' },
-	// 		{ link: 'https://guides.rubyonrails.org/', name: 'Rails' },
-	// 		{ link: 'https://en.wikipedia.org/wiki/HTML', name: 'HTML' },
-	// 	],
-	// 	live: [true, 'https://github.com/elidakirigo/Rails-Blog'],
-	// 	source: [true, 'https://github.com/elidakirigo/Rails-Blog'],
-	// 	image: 'https://user-images.githubusercontent.com/101924220/209710207-edf76c66-5034-4cf0-aae4-6b1479663456.png',
-	// },
+	// personal  portfolio
+	{
+		topic: 'feature',
+		link: 'https://github.com/elidakirigo/Rails-Blog',
+		title: 'Responsive Portfolio',
+		content: ``,
+		stacks: ['HTML', 'CSS', 'JS'],
+		live: [true, 'https://github.com/elidakirigo/Rails-Blog'],
+		source: [true, 'https://github.com/elidakirigo/Rails-Blog'],
+		image: './assets/img/screenshots/Responsive-Portfolio-Website.png',
+	},
 	// // Youtube clone
 	// {
 	// 	topic: 'web',
