@@ -764,7 +764,9 @@ img {
 .portfolio__description {
 	margin-bottom: var(--mb-0-75);
 }
-
+.portfolio__button{
+	margin-bottom: 40px;
+}
 .portfolio__button:hover .button__icon {
 	transform: translateX(0.25rem);
 }
@@ -992,6 +994,7 @@ img {
 	border-radius: 0.4rem;
 	z-index: var(--z-tooltip);
 	transition: 0.4s;
+	border: 1px solid var(--container-color);
 }
 
 .scrollup:hover {
@@ -1053,7 +1056,7 @@ img {
 	}
 
 	.qualification__data {
-		gap: 5rem;
+		gap: .5rem;
 	}
 
 	.services__container {
