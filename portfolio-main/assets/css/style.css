@@ -1155,6 +1155,7 @@ header.has-style-02 .shape-03 {
 	border: 2px solid transparent;
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
+	min-height: 500px;
 }
 
 .portfolio.has-style-01 .item-card:hover {

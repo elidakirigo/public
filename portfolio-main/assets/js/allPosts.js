@@ -15,7 +15,7 @@ const allPosts = [
 		link: 'https://pw-food-a.netlify.app/?',
 		title: 'Shopping & Apparel App',
 		content: ``,
-		stacks: ['Angular14', 'stripe', 'nodeJS', 'Tailwind'],
+		stacks: ['Angular 14', 'node JS', 'Tailwind CSS', 'Material UI', 'stripe'],
 		live: [true, 'https://pw-food-a.netlify.app/?'],
 		source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
 		image: './assets/img/screenshots/AngularStore.png',
