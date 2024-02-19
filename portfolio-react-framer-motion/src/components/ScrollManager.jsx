@@ -1,5 +1,7 @@
 import { useScroll } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
+import { gsap } from 'gsap'
+import { useEffect } from 'react'
 import { useRef } from 'react'
 
 const ScrollManager = (props) => {
@@ -8,6 +10,19 @@ const ScrollManager = (props) => {
 	const data = useScroll()
 	const lastScroll = useRef(0)
 	const isAnimating = useRef(false)
+
+	useEffect(() => {
+		gsap.to(data.el, {
+			duration: 1,
+			scrollTop: section * data.el.clientHeight,
+			onStart: () => {
+				isAnimating.current = true
+			},
+			onComplete: () => {
+				isAnimating.current = false
+			},
+		})
+	}, [])
 
 	useFrame(() => {
 		if (isAnimating.current) {
@@ -22,6 +37,7 @@ const ScrollManager = (props) => {
 		if (data.scroll.current < lastScroll.current && data.scroll.current < 1 / (data.pages - 1)) {
 			onSectionChange(0)
 		}
+		lastScroll.current = data.scroll.current
 	})
 	return null
 }
