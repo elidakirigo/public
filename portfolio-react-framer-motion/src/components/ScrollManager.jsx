@@ -1,11 +1,6 @@
-import React from 'react'
-
-const ScrollManager = () => {
-  return (
-	<div>
-	  
-	</div>
-  )
+const ScrollManager = (props) => {
+	const { section, onSectionChange } = props
+	return null
 }
 
 export default ScrollManager
