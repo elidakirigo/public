@@ -12,7 +12,7 @@ import { soundoff, soundon } from '../assets/icons'
 
 const Home = () => {
 	const audioRef = useRef(new Audio(sakura))
-	audioRef.current.volume = 0.4
+	audioRef.current.volume = 0.3
 	audioRef.current.loop = true
 
 	const [isRotating, setIsRotating] = useState(false)
@@ -77,7 +77,7 @@ const Home = () => {
 				</Suspense>
 			</Canvas>
 			<div className='absolute bottom-2 left-2'>
-				<img src={isPlayingMusic ? soundon : soundoff} />
+				<img src={isPlayingMusic ? soundon : soundoff} alt='sound' className='w-10 h-10 cursor-pointer object-contain' onClick={() => setIsPlayingMusic(!isPlayingMusic)} />
 			</div>
 		</section>
 	)
