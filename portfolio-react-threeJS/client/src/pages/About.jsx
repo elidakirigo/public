@@ -5,7 +5,7 @@ import CTA from '../components/CTA'
 
 const About = () => {
 	return (
-		<section classname='nmax-conainer'>
+		<section className='max-container'>
 			<h1 className='head-text'>
 				Hello i'm <span className='blue-gradient_text font-semibold drop-shadow'>Elida</span>
 			</h1>
