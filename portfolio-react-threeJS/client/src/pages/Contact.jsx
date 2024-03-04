@@ -32,7 +32,7 @@ const Contact = () => {
 				setIsLoading(false)
 				// TODO: show success message
 				// TODO: Hide an alert
-				
+
 				setForm({ name: '', email: '', message: '' })
 			})
 			.catch((error) => {
@@ -69,4 +69,4 @@ const Contact = () => {
 	)
 }
 
-export default Contact
+export default Contact 
