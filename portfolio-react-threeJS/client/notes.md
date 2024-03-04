@@ -21,3 +21,5 @@ npm install react-router-dom @react-three/fiber @react-three/drei @react-spring/
 
 emailJS admin - https://dashboard.emailjs.com/admin 
 	- password - ELIDAWANJIKU12345
+
+gltf loader / viewer - https://gltf.pmnd.rs/
