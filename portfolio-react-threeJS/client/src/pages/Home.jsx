@@ -6,6 +6,7 @@ import Island from '../models/Island'
 import Sky from '../models/Sky'
 import Bird from '../models/Bird'
 import Plane from '../models/Plane'
+import HomeInfo from '../components/HomeInfo'
 
 const Home = () => {
 	const [isRotating, setIsRotating] = useState(false)
@@ -42,10 +43,9 @@ const Home = () => {
 	const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize()
 
 	const [planeScale, planePosition] = adjustPlaneForScreenSize()
-
 	return (
 		<section className='w-full h-screen relative'>
-			{/* <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>popup</div> */}
+			<div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>{currentStage&&<HomeInfo currentStage={currentStage} />}</div>
 			<Canvas className={`w-full h-full bg-transparent ${isRotating ? 'cursor-grabbing' : 'cursor-grab'}`} camera={{ near: 0.1, far: 1000 }}>
 				<Suspense fallback={<Loader />}>
 					<directionalLight position={[1, 1, 1]} intensity={2} />
@@ -54,7 +54,7 @@ const Home = () => {
 					{/* <spotLight /> */}
 					<hemisphereLight skyColor='#b1e1ff' groundColor={'#000000'} intensity={1} />
 					<Bird />
-					<Sky />
+					<Sky isRotating={isRotating} />
 					<Island position={islandPosition} scale={islandScale} rotation={islandRotation} isRotating={isRotating} setIsRotating={setIsRotating} setCurrentStage={setCurrentStage} />
 					<Plane planeScale={planeScale} planePosition={planePosition} isRotating={isRotating} rotation={[0, 20, 0]} />
 				</Suspense>
