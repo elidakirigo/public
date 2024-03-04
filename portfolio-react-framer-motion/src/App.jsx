@@ -31,6 +31,7 @@ function App() {
 				</Canvas>
 				<Menu onSectionChange={setSection} menuOpened={menuOpened} setMenuOpened={setMenuOpened} />
 			</MotionConfig>
+			<Leva hidden/>
 		</>
 	)
 }

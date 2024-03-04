@@ -14,6 +14,6 @@ yarn dev
 
 yarn add --dev tailwindcss postcss autoprefixer
 
-yarn add framer-motion framer-motion-3d gsap
+yarn add framer-motion framer-motion-3d gsap leva
 
 tailwind with vite - https://tailwindcss.com/docs/guides/vite
