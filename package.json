@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-three/fiber": "^8.15.19",
     "react-router-dom": "^6.22.2"
   }
 }
