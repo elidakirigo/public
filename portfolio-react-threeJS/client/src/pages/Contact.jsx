@@ -15,13 +15,31 @@ const Contact = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		setIsLoading(true)
-		emailjs.sendForm(process.env.VITE_APP_EMAILJS_SERVICE_ID, process.env.VITE_APP_EMAILJS_TEMPLATE_ID, {
-			from_name: form.name,
-			to_name: 'Elida',
-			from_email: form.email,
-			to_email: 'contact@example.com',
-			message: form.message,
-		})
+		emailjs
+			.send(
+				import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+				import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+				{
+					from_name: form.name,
+					to_name: 'Elida',
+					from_email: form.email,
+					to_email: 'contact@example.com',
+					message: form.message,
+				},
+				import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+			)
+			.then(() => {
+				setIsLoading(false)
+				// TODO: show success message
+				// TODO: Hide an alert
+				
+				setForm({ name: '', email: '', message: '' })
+			})
+			.catch((error) => {
+				setIsLoading(false)
+				console.log(error)
+				// TODO: show error message
+			})
 	}
 
 	return (
@@ -43,7 +61,7 @@ const Contact = () => {
 						<textarea name='message' className='textarea' placeholder='let me know how i can help you!' required value={form.message} onChange={handlechange} onFocus={handleFocus} onBlur={handleBlur}></textarea>
 					</label>
 					<button type='submit' className='btn' onFocus={handleFocus} onBlur={handleBlur} disabled={isLoading}>
-						{isLoading ? 'Sending...' : 'Sending Message'}
+						{isLoading ? 'Sending...' : 'Send Message'}
 					</button>
 				</form>
 			</div>
