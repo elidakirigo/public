@@ -25,7 +25,7 @@ const allPosts = [
 		link: 'https://pw-food-a.netlify.app/?',
 		title: 'chickchickGo Browser Engine',
 		content: ``,
-		stacks: ['React', 'Tailwind CSS','Google API'],
+		stacks: ['React', 'Tailwind CSS', 'Google API'],
 		live: [true, 'https://pw-food-a.netlify.app/?'],
 		source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
 		image: './assets/img/screenshots/ChickChickGo-🐔.png',
@@ -40,6 +40,17 @@ const allPosts = [
 		live: [true, 'https://pw-food-a.netlify.app/?'],
 		source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
 		image: './assets/img/screenshots/AngularStore.png',
+	},
+	// IP address tracker
+	{
+		topic: 'responsive',
+		link: 'https://elidakirigo.github.io/real-estate/index.html',
+		title: 'GeoLocation - IP tracker',
+		content: ``,
+		stacks: ['vueJS', 'TailwindCSS'],
+		live: [true, 'https://elidakirigo.github.io/real-estate/index.html'],
+		source: [true, 'https://github.com/elidakirigo/real-estate'],
+		image: './assets/img/screenshots/IP-address-Tracker.png',
 	},
 	// Wordle Game
 	{
@@ -73,17 +84,6 @@ const allPosts = [
 		live: [true, 'https://elidakirigo.vercel.app/'],
 		source: [true, 'https://github.com/elidakirigo/elidakirigo-v1'],
 		image: './assets/img/screenshots/todo-svelte.png',
-	},
-	// IP address tracker
-	{
-		topic: 'responsive',
-		link: 'https://elidakirigo.github.io/real-estate/index.html',
-		title: 'GeoLocation - IP tracker',
-		content: ``,
-		stacks: ['vueJS', 'TailwindCSS'],
-		live: [true, 'https://elidakirigo.github.io/real-estate/index.html'],
-		source: [true, 'https://github.com/elidakirigo/real-estate'],
-		image: './assets/img/screenshots/IP-address-Tracker.png',
 	},
 
 	// personal  portfolio
