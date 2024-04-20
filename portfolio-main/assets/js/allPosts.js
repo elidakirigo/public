@@ -17,7 +17,7 @@ const allPosts = [
 		stacks: ['NextJS', 'nodeJS', 'Tailwind CSS', 'planetScale', 'stripe', 'NextAuth'],
 		live: [true, 'https://pw-food-a.netlify.app/?'],
 		source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
-		image: './assets/img/screenshots/AngularStore.png',
+		image: './assets/img/screenshots/ecommerce.png',
 	},
 	// ChickChickGo-🐔
 	{
