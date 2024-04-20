@@ -25,7 +25,7 @@ const allPosts = [
 		link: 'https://pw-food-a.netlify.app/?',
 		title: 'chickchickGo Browser Engine',
 		content: ``,
-		stacks: ['React', 'Tailwind CSS'],
+		stacks: ['React', 'Tailwind CSS','Google API'],
 		live: [true, 'https://pw-food-a.netlify.app/?'],
 		source: [true, 'https://github.com/elidakirigo/progressive-web-app'],
 		image: './assets/img/screenshots/ChickChickGo-🐔.png',
