@@ -1,0 +1,18 @@
+/* Headings, Call-to-actions, Navigation -> Barlow Condensed; body -> barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+:root {
+    // primary
+    --Red: hsl(0, 100%, 68%);
+
+    --Very_Dark_Blue: hsl(230, 29%, 20%);
+    --Dark_Grayish_Blue: hsl(230, 11%, 40%);
+    --Grayish_Blue: hsl(231, 7%, 65%);
+    --Light_Grayish_Blue: hsl(207, 33%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

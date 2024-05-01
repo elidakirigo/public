@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+$Very_Dark_Grayish_Blue: rgb(72, 85, 106);
+$Desaturated_Dark_Blue: rgb(109, 127, 151);
+$Grayish_Blue: rgb(158, 175, 194);
+$Light_Grayish_Blue: rgb(236, 242, 248);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Light_Grayish_Blue;
+    min-height: 100vh;
+}
+
+main {
+    // margin: 5%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'manrope';
+    max-width: 940px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 7px 40px 5px rgba(0, 0, 0, 0.132);
+
+    img#drawers {
+        border-radius: 10px 0 0 10px;
+        // flex-grow: 1;
+        // max-width: 450px;
+        width: 100%;
+        max-width: 450px;
+        min-width: 150px;
+    }
+
+    .content {
+        padding: 40px;
+
+        h1 {
+            font-size: 23px;
+            padding-bottom: 20px;
+            color: $Very_Dark_Grayish_Blue;
+        }
+
+        p {
+            color: $Grayish_Blue;
+        }
+
+        h4 {
+            color: $Grayish_Blue;
+        }
+
+        .person-detail {
+            width: 100%;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+            position: relative;
+
+            // position: absolute;
+            // bottom: 0;
+            // padding-bottom: 4%;
+            // width: 60%;
+            #michelle {
+                width: 50px;
+                border-radius: 50%;
+                // gap: 2px;
+            }
+
+            .name {
+                position: absolute;
+                left: 60px;
+            }
+
+            h2 {
+                color: $Very_Dark_Grayish_Blue;
+                // margin-left: -90px;
+            }
+
+            #share {
+                // position: relative;
+                // width: 100%;
+
+                &:hover {
+                    #icon {
+                        background-color: $Very_Dark_Grayish_Blue;
+                    }
+
+                    .container {
+                        display: flex;
+                    }
+                }
+
+                #icon {
+                    background-color: $Light_Grayish_Blue;
+                    padding: 10px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    z-index: 9;
+                    position: relative;
+                }
+
+                .container {
+                    // opacity: 0;
+                    box-shadow: 1px 7px 40px 5px rgba(0, 0, 0, 0.132);
+                    right: -85px;
+                    top: -30px;
+                    // cursor: pointer;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $Very_Dark_Grayish_Blue;
+                    padding: 4px 15px;
+                    border-radius: 4px;
+                    position: absolute;
+                    display: none;
+
+
+                    .arrow {
+                        width: 20px;
+                        height: 20px;
+                        background-color: $Very_Dark_Grayish_Blue;
+                        position: absolute;
+                        top: 35px;
+                        left: 80px;
+                        transform: rotate(45deg);
+                        z-index: 1;
+                    }
+
+                    img {
+                        padding: 10px;
+                        width: 39px;
+                        z-index: 3;
+
+                        &:hover {
+                            width: 36px;
+                        }
+                    }
+
+                    h6 {
+                        color: rgba(255, 255, 255, 0.281);
+                        letter-spacing: 3px;
+                        font-weight: 100;
+                        text-transform: uppercase;
+                    }
+                }
+
+                //  margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width:780px) {
+    main {
+        img#drawers {
+            object-fit: cover;
+        }
+
+        .content {
+
+            h1,
+            h2 {
+                font-size: 18px;
+            }
+
+            p,
+            h4 {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    main {
+        flex-direction: column;
+        margin: 7%;
+
+        img#drawers {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .content {
+            padding-bottom: 20px;
+
+            .person-detail #share {
+                &:hover {
+                    #icon {
+                        background-color: $Light_Grayish_Blue;
+                    }
+                }
+
+                .container {
+                    // display: flex !important;
+                    right: -40px;
+                    top: 20px;
+                    border-radius: 0 0 15px 15px;
+                    left: -40px;
+                    z-index: 1;
+                    bottom: -20px;
+                    // width: calc(100% + 80px);
+
+                    .arrow {
+                        display: none;
+                    }
+
+                    img {
+                        top: 20px;
+                        margin-top: -10px;
+                        width: 46px;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+    }
+}

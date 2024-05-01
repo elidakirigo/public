@@ -1,0 +1,77 @@
+@use '../util/'as *;
+/*---------------------------
+** CSS reset
+Source credits :
+-- See https://piccalil.li/blog/a-modern-css-reset/
+-- 7-1 architecture - https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture
+-----------------------------*/
+ 
+/* Set core root defaults  */
+ html {
+box-sizing: border-box;
+font-size:100%;
+  &:focus-within {
+ scroll-behavior: smooth; 
+   @media (prefers-reduced-motion: reduce) {
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+  scroll-behavior: auto;
+ } }  }
+*,
+*::before,
+*::after {
+box-sizing:inherit;
+padding: 0;
+margin: 0;
+@media (prefers-reduced-motion: reduce) {
+  /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+transition-duration: 0.01ms !important;
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+scroll-behavior: auto !important;
+}}
+/* Remove default margin and preventing margin collapse
+see -- https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context/
+*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+margin: 0;
+}
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'
+],
+ol[role='list'
+] {
+list-style: none;
+}
+/* Set core body defaults */
+body {
+min-height: 100vh;
+line-height: 1.5;
+text-rendering: optimizeSpeed;
+}
+/* A elements that don't have a class get default styles */
+a:not([class
+]) {
+text-decoration-skip-ink: auto;
+}
+/* Make images easier to work with */
+img,
+picture {
+display: block;
+max-width: 100%;
+}
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+font: inherit;
+}

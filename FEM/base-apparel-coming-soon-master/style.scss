@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+
+:root {
+    --Desaturated_Red: rgb(206, 151, 151);
+    --Soft_Red: rgb(249, 98, 98);
+
+    --Dark_Grayish_Red: rgb(65, 58, 58);
+    --Linear: linear-gradient(135deg, rgb(255, 208, 208), rgb(246, 133, 152));
+    --Linear2: linear-gradient(135deg, rgb(248, 191, 191), hsl(0, 74%, 74%));
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(228, 228, 228);
+}
+
+main {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+    img {
+        // max-width: 630px;
+        width: 45%;
+    }
+
+    .c-content {
+        width: 55%;
+        padding: 5%;
+
+        h1 {
+            font-size: 62px;
+            color: var(--Desaturated_Red);
+            padding: 15% 0 6% 0;
+            font-weight: 100;
+            text-transform: uppercase;
+            letter-spacing: 9px;
+
+            span {
+                color: black;
+                font-weight: 400;
+            }
+        }
+
+        p {
+            // padding: 30px 0;
+            color: var(--Desaturated_Red);
+            line-height: 1.5;
+        }
+
+        .c-input {
+            // background-color: black;
+            display: flex;
+            padding-top: 30px;
+
+            // align-items: center;
+            input {
+                padding: 13px 20px;
+                border-radius: 50px;
+                width: 60%;
+                outline-color: var(--Desaturated_Red);
+                border: 1px solid var(--Desaturated_Red);
+
+                &::placeholder {
+                    color: var(--Desaturated_Red);
+                }
+            }
+
+            span {
+                padding: 10px 30px;
+                border-radius: 50px;
+                // background: $Linear2;
+                cursor: pointer;
+                // background:linear-gradient(blue,red);
+                background: var(--Linear2);
+                display: flex;
+                margin-left: -40px;
+                box-shadow: 1px 5px 22px 1px var(--Desaturated_Red);
+
+                &:hover {
+                    background: var(--Linear);
+                }
+            }
+
+            img {
+                width: 10px;
+                align-self: center;
+                max-width: 30px;
+                min-width: 8px;
+            }
+        }
+    }
+}

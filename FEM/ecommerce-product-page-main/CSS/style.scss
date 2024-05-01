@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+
+    --Orange: rgb(255, 125, 26);
+    --Pale_orange: rgb(255, 237, 224);
+
+    --Very_vark_blue: rgb(29, 32, 37);
+    --Dark_grayish_blue: rgb(104, 112, 125);
+    --Grayish_blue: rgb(182, 188, 200);
+    --Light_grayish_blue: rgb(247, 248, 253);
+    --White: rgb(255, 255, 255);
+    // (with 75% opacity for lightbox background)
+    --Black: rgb(0, 0, 0);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

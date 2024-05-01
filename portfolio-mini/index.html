@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--=============== FAVICON ===============-->
+		<link rel="shortcut icon" href="https://cdn.bio.link/uploads/profile_pictures/2022-08-09/p2iWem6Ra8lqbSorJ1qsFX82q6nQmn8S.png" type="image/x-icon">
+
+		<!--=============== REMIX ICONS ===============-->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+		<!--=============== CSS =====.==========-->
+		<link rel="stylesheet" href="css/styles.css">
+
+		<title>my portfolio</title>
+	</head>
+
+	<body class='dark-theme'>
+		<!--=============== HEADER PROFILE ===============-->
+		<header class="profile container">
+			<!-- theme button  -->
+			<i class="ri-sun-line change-theme" id='theme-button'></i>
+
+			<div class="profile__container grid">
+				<div class="profile__data">
+					<div class="profile__border">
+						<div class="profile__perfil">
+							<img src='assets/img/perfil.jpg' alt=' '>
+						</div>
+					</div>
+
+					<h2 class="profile__name">Elida Wanjiku</h2>
+					<h3 class="profile__profession">Web Developer</h3>
+
+					<ul class="profile__social">
+						<a href="https://www.linkedin.com/in/elidakirigo/" target="_blank" rel="noopener noreferrer"
+							class='profile__social-link'>
+							<i class="ri-linkedin-box-line"></i>
+						</a>
+						<a href="https://github.com/elidakirigo" target="_blank" rel="noopener noreferrer"
+							class='profile__social-link'>
+							<i class="ri-github-fill"></i>
+						</a>
+						<a href="http://twitter.com/kirkieui" target="_blank" rel="noopener noreferrer"
+							class='profile__social-link'>
+							<i class="ri-twitter-line"></i>
+						</a>
+						<a href="https://elidakirigo.bio.link/" target="_blank"
+						rel="noopener noreferrer" class='profile__social-link-bio'><img
+							src="https://cdn.bio.link/uploads/profile_pictures/2022-08-09/p2iWem6Ra8lqbSorJ1qsFX82q6nQmn8S.png"
+							alt=""></a>
+						<a href="https://leetcode.com/elidakirigo/" target="_blank" rel="noopener noreferrer"
+							class='profile__social-link-leetcode' title='leetcode'><img
+								src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png"
+								alt=""></a>
+						<a href="https://leetcode.com/elidakirigo/" target="_blank" rel="noopener noreferrer"
+							class='profile__social-link-codewars' title='codewars'><img
+								src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" alt=""></a>
+						<a href="https://www.upwork.com/freelancers/~0131be64b13711e501" target="_blank"
+							rel="noopener noreferrer" class='profile__social-link-upwork'><img
+								src="https://www.upwork.com/static/marketing/ui/master/img/logo-1200x630.png"
+								alt=""></a>
+					</ul>
+				</div>
+				<div class="profile__info grid">
+					<div class="profile__info-group">
+						<h3 class="profile__info-number"> 6+</h3>
+						<p class="profile__info-description">Years of <br> work</p>
+					</div>
+					<div class="profile__info-group">
+						<h3 class="profile__info-number"> 20+</h3>
+						<p class="profile__info-description">Open Source <br> Contributions</p>
+					</div>
+					<div class="profile__info-group">
+						<h3 class="profile__info-number"> 5+</h3>
+						<p class="profile__info-description">Completed <br>Long Term projects</p>
+					</div>
+					<div class="profile__info-group">
+						<h3 class="profile__info-number"> 20+</h3>
+						<p class="profile__info-description">Satisfied <br> customers</p>
+					</div>
+				</div>
+				<div class="profile__buttons">
+					<a href="https://drive.google.com/file/d/156UtauUV-F1O-vegR8Xc8ijf1_TqSrL_/view?usp=sharing" download='' class='button'> Ask For CV <i class="ri-download-line"></i></a>
+
+					<div class="profile__buttons-small">
+						<a href="https://api.whatsapp.com/send?phone=254720467320&text=hello, i'd like to discuss more in regards to your job proposal"
+							target='_blank' class="button button__small button__gray">
+							<i class="ri-whatsapp-line"></i>
+						</a>
+						<a href="https://m.me/elidawanjiku" target='_blank' class="button button__small button__gray">
+							<i class="ri-messenger-line"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!--=============== MAIN ===============-->
+		<main class="main">
+			<section class="filters container">
+				<!--=============== FILTERS TABS ===============-->
+				<ul class="filters__content">
+					<div class="filters__button " data-target='#projects'>
+						Projects
+					</div>
+					<div class="filters__button filter-tab-active" data-target='#skills'>
+						Skills
+					</div>
+				</ul>
+				<div class="filters__sections">
+					<!--=============== PROJECTS ===============-->
+					<div class="projects__content grid " data-content id='projects'>
+						<article class="projects__card">
+							<img src="https://static.vecteezy.com/system/resources/previews/000/359/284/original/artificial-neural-networks-banner-a-form-of-connectionism-anns-computing-systems-inspired-by-the-biological-neural-networks-vector-illustration.jpg"
+								alt="" class="projects__img">
+							<div class="projects__modal">
+								<div>
+									<ol class='projects__languages'>
+										<li>Vanilla Javascript</li> 
+										<li>scss</li>
+									</ol>
+									<span class="projects__subtitle">Design and implementation</span>
+									<h3 class="projects__title">Neural Networks</h3>
+									<a href="" class="projects__button button button__small">
+										<i class="ri-links-line"></i>
+									
+									</a>
+									<a href="" class="projects__button button button__small qr-code">
+										<i class="ri-qr-code-line"></i> 
+									</a>	
+								</div>
+							</div>
+						</article>
+						<article class="projects__card">
+							<img src="assets/img/EL Gordo.png" alt="" class="projects__img">
+							<div class="projects__modal">
+								<div>
+									<ol class='projects__languages'>
+										<li>Wordpress</li>
+										<li>React</li>
+										<li>scss</li>
+										<li>PHP</li>
+									</ol>
+									<span class="projects__subtitle">International Lottery</span>
+									<h3 class="projects__title">Simbalotto</h3>
+									<a href="https://simbalotto.com" class="projects__button button button__small">
+										<i class="ri-links-line"></i>
+									</a>
+									<a href="" class="projects__button button button__small qr-code">
+										<i class="ri-qr-code-line"></i> 
+									</a>	
+								</div>
+							</div>
+						</article>
+						<article class="projects__card">
+							<img src="assets/img/lottopawa.jpg" alt="" class="projects__img">
+							<div class="projects__modal">
+								<div>
+									<ol class='projects__languages'>
+										<li>Wordpress</li>
+										<li>React</li>
+										<li>scss</li>
+										<li>PHP</li>
+									</ol>
+									<span class="projects__subtitle">local lottery</span>
+									<h3 class="projects__title">lottopawa platform</h3>
+									<a href="https://lottopawa.co.ke" class="projects__button button button__small">
+										<i class="ri-links-line"></i>
+									</a>
+									<a href="" class="projects__button button button__small qr-code">
+										<i class="ri-qr-code-line"></i> 
+									</a>	
+								</div>
+							</div>
+						</article>
+						<article class="projects__card">
+							<img src="https://cdn.wccftech.com/wp-content/uploads/2016/06/netflix.png" alt=""
+								class="projects__img">
+							<div class="projects__modal">
+								<div>
+									<ol class='projects__languages'>
+										<li>Vanilla Javascript</li>
+										<li>React</li>
+										<li>scss</li>
+									</ol>
+									<span class="projects__subtitle">web apps</span>
+									<h3 class="projects__title">Entertainment platform</h3>
+									<a href="" class="projects__button button button__small">
+										<i class="ri-links-line"></i>
+									</a>
+									<a href="" class="projects__button button button__small qr-code">
+										<i class="ri-qr-code-line"></i> 
+									</a>	
+								</div>
+							</div>
+						</article>
+						<article class="projects__card">
+							<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhst4ldgBOg9rtbkICkI7VFyOe407LtYYCjVv0cfHh44OfJXH2V8huGuxGKV1Q0skZQiPiSrlAZjfpfRW1mQoOYMXc_M30p_eSarCnCCKF8ukhOMKoTCSiKIREJHCtsNfpzMAvZ5Lk83zOuk_21Au7LVzOwH5E0kPFPuV1bObJWc29Vp_IeeCJn0QDmew/s640/chat-gpt-logo.jpg"
+								alt="" class="projects__img">
+							<div class="projects__modal">
+								<div>
+									<ol class='projects__languages'>
+										<li>Javascript</li>
+										<li>scss</li>
+									</ol>
+									<span class="projects__subtitle">chatgpt API intergration</span>
+									<h3 class="projects__title">Open AI platform</h3>
+									<a href="" class="projects__button button button__small">
+										<i class="ri-links-line"></i>
+									</a>
+									<a href="" class="projects__button button button__small qr-code">
+										<i class="ri-qr-code-line"></i> 
+									</a>	
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<!--=============== SKILLS ===============-->
+					<div class="skills__content grid filters__active" data-content id='skills'>
+						<div class="skills__area">
+							<h3 class="skills__title">
+								Frontend developer
+							</h3>
+							<div class="skills__box">
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Next js</h3>
+											<span class="skills__level">
+												Basic
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">SASS & CSS</h3>
+											<span class="skills__level">
+												Advanced
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Javascript (+deno)</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">TypeScript</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">React js</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Svelte</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Bootstrap</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Tailwind Css</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<!-- <div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Angular</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div> -->
+								</div>
+							</div>
+							<h3 class="skills__title extra">
+								Technical skills
+							</h3>
+							<div class="skills__box">
+								<div class="skills__group">
+									<!-- <div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">web Assembly (rust)</h3>
+											<span class="skills__level">
+												Basic
+											</span>
+										</div>
+									</div> -->
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">linux (ubuntu) </h3>
+											<span class="skills__level">
+												Advanced
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">LAMP stack </h3>
+											<span class="skills__level">
+												intermediate
+											</span>
+										</div>
+									</div>
+									<!-- <div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">NGINX </h3>
+											<span class="skills__level">
+												basic
+											</span>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+						<div class="skills__area">
+							<h3 class="skills__title">
+								More Development skills
+							</h3>
+							<div class="skills__box">
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Babel</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">SEO & google</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">WordPress</h3>
+											<span class="skills__level">
+												Advanced
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Firebase</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Graph QL</h3>
+											<span class="skills__level">
+												basic
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Raspberry Pi apps</h3>
+											<span class="skills__level">
+												intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">API Integration</h3>
+											<span class="skills__level">
+												intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Node JS</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Git applications</h3>
+											<span class="skills__level">
+												Intermediate
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <h3 class="skills__title extra">
+								Advanced 
+							</h3>
+							<div class="skills__box">
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">web Assembly (rust)</h3>
+											<span class="skills__level">
+												Basic
+											</span>
+										</div>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!--=============== FOOTER ===============-->
+		<footer class="footer container">
+			<span class="footer__copy">&#169; Ellida Wanjiku. All rigths reserved</span>
+		</footer>
+
+		<!--=============== SCROLLREVEAL ===============-->
+		<script src="./assets/js/scrollreveal.min.js"></script>
+		<script src="./assets/js/kursor.js"></script>
+
+		<!--=============== MAIN JS ===============-->
+		<script src="./assets/js/main.js"></script>
+
+	</body>
+
+</html>
