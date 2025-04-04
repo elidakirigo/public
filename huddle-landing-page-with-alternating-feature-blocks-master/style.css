@@ -171,7 +171,7 @@ main .content .modal {
 
 main .content .modal h1 {
   color: var(--Very_Dark_Cyan);
-  padding: 0 0 30px 0;
+  padding: 0 0 30px;
   font-size: 22px;
 }
 
@@ -286,4 +286,3 @@ main .footer .container .c-4 span {
     font-size: 13px;
   }
 }
-/*# sourceMappingURL=style.css.map */
