@@ -109,7 +109,7 @@ main .c-grid-2 .c-grid-half button {
 main .c-grid-2 .c-grid-half {
   width: 50%;
   background-color: #59cfcd;
-  border-radius: 0 0 10px 0;
+  border-radius: 0 0 10px;
   padding: 40px;
 }
 
@@ -140,4 +140,3 @@ main .c-grid-2 .c-grid-half p {
     max-width: 300px;
   }
 }
-/*# sourceMappingURL=style.css.map */

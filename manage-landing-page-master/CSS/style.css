@@ -421,7 +421,7 @@ main .more h1 {
     width: 100%;
   }
   main .content-main .info-left {
-    padding: 70px 0 0 0;
+    padding: 70px 0 0;
   }
   main .content-main .info-left p {
     padding-right: 0;
@@ -448,4 +448,3 @@ main .more h1 {
     justify-self: center;
   }
 }
-/*# sourceMappingURL=style.css.map */

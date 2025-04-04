@@ -461,7 +461,7 @@ main .footer .f-more_menu {
   }
   main .container-content .newsletter .newsletter_email .email_input {
     width: 100%;
-    margin: 0 0 40px 0;
+    margin: 0 0 40px;
   }
   main .container-content .newsletter .newsletter_email button {
     width: 100%;
@@ -474,4 +474,3 @@ main .footer .f-more_menu {
     width: 100%;
   }
 }
-/*# sourceMappingURL=style.css.map */
