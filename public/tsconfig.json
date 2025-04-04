@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./public-backend-e2e"
+    },
+    {
+      "path": "./public-backend"
+    },
+    {
+      "path": "./public-frontend-e2e"
+    },
+    {
+      "path": "./public-frontend"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@public/public-backend",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "public-backend",
+    "projectType": "application",
+    "sourceRoot": "public-backend/src",
+    "targets": {
+      "serve": {
+        "executor": "@nx/js:node",
+        "defaultConfiguration": "development",
+        "dependsOn": [
+          "build"
+        ],
+        "options": {
+          "buildTarget": "public-backend:build",
+          "runBuildTargetDependencies": false
+        },
+        "configurations": {
+          "development": {
+            "buildTarget": "public-backend:build:development"
+          },
+          "production": {
+            "buildTarget": "public-backend:build:production"
+          }
+        }
+      },
+      "test": {
+        "options": {
+          "passWithNoTests": true
+        }
+      }
+    }
+  }
+}

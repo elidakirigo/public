@@ -1,1 +1,0 @@
-- npm install express mysql cors nodemon bcrypt cookie-parser jsonwebtoken multer path

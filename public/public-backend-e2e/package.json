@@ -1,0 +1,27 @@
+{
+  "name": "@public/public-backend-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "public-backend-e2e",
+    "projectType": "application",
+    "implicitDependencies": [
+      "public-backend"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{workspaceRoot}/coverage/{e2eProjectRoot}"
+        ],
+        "options": {
+          "jestConfig": "public-backend-e2e/jest.config.ts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "public-backend:build"
+        ]
+      }
+    }
+  }
+}
